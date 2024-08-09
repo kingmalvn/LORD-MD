@@ -59,7 +59,7 @@
 
 
 <a
-      href='https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+      href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 
@@ -89,8 +89,8 @@
     <td>Ravens wa channel</td>
   </tr>
   <tr>
-    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/179fe48ce0290c09d75a6.jpg" width="180"</td>
-    <td><a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"><img src="https://telegra.ph/file/074fda0c9cc17c420cf3d.jpg" width="180"</td>
+    <td><a href="https://wa.me/263714757857"><img src="https://telegra.ph/file/c9c6321a00c3b14908cd8.jpg" width="180"</td>
+    <td><a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z"><img src="https://i.imgur.com/ozlwHK1.jpeg" width="180"</td>
   </tr>
 </table>
 
