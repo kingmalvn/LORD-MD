@@ -8,13 +8,13 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
-    PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || "Malvin Tech",
+    PREFIXE: process.env.PREFIX || ".",
+    OWNER_NAME: process.env.OWNER_NAME || "king malvin",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "263714757857",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
-    BOT : process.env.BOT_NAME || '𝐑𝐀𝐕𝐄𝐍𝐒 MD',
-    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg,https://telegra.ph/file/2e5cb1ec0619781c9fa41.jpg,https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg',
+    BOT : process.env.BOT_NAME || 'BEST CODER MD',
+    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg',
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,

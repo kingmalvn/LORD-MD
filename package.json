@@ -18,7 +18,7 @@
     "whatsapp-bot",
     "Faouz995"
   ],
-  "author": "malvin_tech",
+  "author": "kingmalvn",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",

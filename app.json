@@ -1,6 +1,6 @@
 {
-  "name":"𝐑𝐀𝐕𝐄𝐍𝐒-𝐌𝐃",
-  "description":"A WhatsApp bot developed by malvin_king any problem wa.me  :263714757857",
+  "name":"RAVENS-MD",
+  "description":"A WhatsApp bot developed by Malvin_king any problem wa.me  263714757857",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg",
   "repository":"https://github.com/kingmalvn/RAVENS-MD",
@@ -35,14 +35,14 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/1fdd87f6182dac91694eb.jpg,https://telegra.ph/file/77c997f862f05eeb716d7.jpg",
+      "value":"https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -69,7 +69,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Malvin king"
+    "value": "king malvin"
   },
     "NUMERO_OWNER":
   {
