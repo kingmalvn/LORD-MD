@@ -1,6 +1,6 @@
 {
-  "name":"RAVENS-MD",
-  "description":"A WhatsApp bot developed by Malvin_king any problem wa.me  263714757857",
+  "name":"RAVENS MD",
+  "description":"𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780934873, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚎 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg",
   "repository":"https://github.com/kingmalvn/RAVENS-MD",
@@ -29,13 +29,20 @@
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
+      "required":true
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"𝗥𝗔𝗩𝗘𝗡𝗦 𝗠𝗗",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg",
+      "value":"https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg,https://telegra.ph/file/a0fe1c1c4b5cb2de79150.jpg",
       "required":false
        
      },
@@ -43,17 +50,15 @@
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"no",
-      "required":false
+      "required": true 
     }
 	,
-    "HEROKU_APY_KEY":{
-    "description": "insert your heroku api-key ",
-     "value":"",
+    "HEROKU_APY_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
      "required" :true
     },
-  "HEROKU_APP_NAME": { 
-    "description": "insert your heroku APP NAME ",
-     "value":"ravens v 2.5.0",
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (this is optionnal)",
      "required" :true
     }  
 	  ,
@@ -69,14 +74,15 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "king malvin"
+    "value": "мαℓνιη кιηg👑"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of Tanzania '263')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of Zimbabwe '263')",
     "required":false,
-    "value": "263714757857"
+    "value": "263780934873"
+	  
   },
     "WARN_COUNT":
   {
@@ -88,17 +94,17 @@
   {
     "description": "if you don't want startting-bot-message put no else put yes",
     "required": true,
-    "value": "yes"
+    "value": "no"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
+    "value":"1",
+    "required": true 
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
-    "required": true
+    "required": true 
   }
   },
 
@@ -114,4 +120,4 @@
       "plan":"heroku-postgresql"
     }
   ]
-}
+  }
