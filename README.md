@@ -4,9 +4,37 @@
  <img alt="𝐑𝐀𝐕𝐄𝐍𝐒 BUG BOT" height="300" src="https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg">
   
 </h1> 
-<p align="center">𝐢𝐧𝐭𝐨𝐝𝐮𝐜𝐢𝐧𝐠 <b>ravens md</b>, 𝐚 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐬𝐢𝐦𝐩𝐥𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐛𝐨𝐭 </p>
+<p align="center">𝐢𝐧𝐭𝐨𝐝𝐮𝐜𝐢𝐧𝐠 <b>RAVENS MD</b>, 𝐚 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐬𝐢𝐦𝐩𝐥𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐛𝐨𝐭 </p>
+
+</p>
+  <p align="center">
+<a href="https://github.com/kingmalvn?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?label=Followers&style=social"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/kingmalvn/RAVENS-MD?&style=social"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/RAVENS-MD?style=social"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/RAVENS-MD?label=Watching&style=social"></a>
+
+</p>
+<p align="center"><img src="https://profile-counter.glitch.me/{kingmalvn}/count.svg" alt="RAVENS-MD :: Visitor's Count"/></p>
+
+---
 
 
+</a>
+  <div align="center">
+  <img src="https://spogit.vercel.app/api?theme=dark&black=true&scan=true" alt="Widget with the current Spotify song"  />
+</div>
+
+---
+
+<p align="center">
+  <a href="https://github.com/kingmalvn/RAVENS-MD"><b>RAVENS-MD</b></a> Support Deploy On...
+</p>
+
+<p align="center">
+  <a href="https://github.com/kingmalvn/RAVENS-MD/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://youtube.com/@MalvinKing_TECH"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
+</
     
  
  
