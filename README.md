@@ -1,6 +1,6 @@
   *𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃*
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'M+𝐑𝐀𝐕𝐄𝐍𝐒+𝐌𝐃+CREATED+BY+Malvin_.&heart;++;Self-taught+Back-Created+By,;Malvin+King+Tech+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
- <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
+ <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z">
  <img alt="𝐑𝐀𝐕𝐄𝐍𝐒 BUG BOT" height="300" src="https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg">
   
 </h1> 
