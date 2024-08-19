@@ -85,11 +85,11 @@
 
 <table>
   <tr>
-    <td> ravens_tech</td>
+    <td>Malvin King</td>
     <td>Ravens wa channel</td>
   </tr>
   <tr>
-    <td><a href="https://wa.me/263714757857"><img src="https://telegra.ph/file/c9c6321a00c3b14908cd8.jpg" width="180"</td>
+    <td><a href="https://wa.me/263780934873"><img src="https://telegra.ph/file/c9c6321a00c3b14908cd8.jpg" width="180"</td>
     <td><a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z"><img src="https://i.imgur.com/ozlwHK1.jpeg" width="180"</td>
   </tr>
 </table>
