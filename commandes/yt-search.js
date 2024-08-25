@@ -142,7 +142,7 @@ zokou({
   const { ms, repondre, arg } = commandeOptions;
 
   if (!arg[0]) {
-    repondre("Insérez un lien YouTube ou une URL de vidéo.");
+    repondre("Insert your YouTube url link Video");
     return;
   }
 

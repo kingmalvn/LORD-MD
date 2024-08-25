@@ -21,18 +21,13 @@ zokou({ nomCom: "sc", catégorie:"Général", reaction: "✨", nomFichier: __fil
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `Hello,,,👋This is *RAVENS-MD* the best bot in the universe developed by *Malvin King*,,fork and give a star 🌟 to my script
-      
-      ┏❏ RAVENS MD SCRIPT  ❐
+      const gitdata = `┏❏ RAVENS MD SCRIPT  ❐
 ┃🗼 *REPOSITORY:* ${data.html_url}
 ┃✨ *STARS:* ${repoInfo.stars}
 ┃🧧 *FORKS:* ${repoInfo.forks}
 ┃📅 *RELEASE DATE:* ${releaseDate}
 ┃🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 ┃👨‍💻 *OWNER* :malvin_king
-┃🆔️ *SESSION_ID*: https://marval-king-2c5016b53af4.herokuapp.com/pair
-┃
-┃👋😎 *SUPPORT*: https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
 ┗❏`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });

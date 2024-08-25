@@ -22,7 +22,7 @@ zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions)
 Powered by *𝗥𝗔𝗩𝗘𝗡𝗦 𝗠𝗗*`);
         });
     } catch (e) {
-      repondre('Erreur lors de la génération de la citation : ' + e.message);
+      repondre('Error generating the quote: ' + e.message);
     }
   } else {
     const query = arg.join(' ');

@@ -267,7 +267,7 @@ zokou(
               fs.unlinkSync(ranNightcore);
             });
           } catch (e) {
-            repondre("Erreur : " + e);
+            repondre("Error : " + e);
           }
         } else {
           repondre("The command only works with audio messages");
