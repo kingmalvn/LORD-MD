@@ -867,28 +867,28 @@ ${metadata.desc}\n\n> POWERED BY MALVIN TECH.`;
             else if (connection == "close") {
                 let raisonDeconnexion = new boom_1.Boom(lastDisconnect?.error)?.output.statusCode;
                 if (raisonDeconnexion === baileys_1.DisconnectReason.badSession) {
-                    console.log('Wrong session Id format, rescan again...');
+                    console.log('Invalid Session ID please get an new one ASAP....');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionClosed) {
-                    console.log('!!! connexion fermée, reconnexion en cours ...');
+                    console.log('!!!! connection closed reconection in progress....');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionLost) {
-                    console.log('connection error😞 ,,ravens trying to reconnect... ');
+                    console.log('connection to server lost 😞 ,,ravens trying to reconnect... ');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason?.connectionReplaced) {
-                    console.log('connexion réplacée ,,, une sesssion est déjà ouverte veuillez la fermer svp !!!');
+                    console.log('connection replaced but session alread open please close it ASAP !!!');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.loggedOut) {
-                    console.log('session disconnected,,, replace a new session id');
+                    console.log('youve been disconnected please get a new session id ASAP"');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.restartRequired) {
-                    console.log('redémarrage en cours ▶️');
+                    console.log('Reboot in progress ▶️');
                     main();
                 }   else {
 
-                    console.log('redemarrage sur le coup de l\'erreur  ',raisonDeconnexion) ;         
+                    console.log('Restarting immediatly after an l\'error  ',raisonDeconnexion) ;         
                     //repondre("* Redémarrage du bot en cour ...*");
 
                                 const {exec}=require("child_process") ;
@@ -977,7 +977,7 @@ ${metadata.desc}\n\n> POWERED BY MALVIN TECH.`;
     let fichier = require.resolve(__filename);
     fs.watchFile(fichier, () => {
         fs.unwatchFile(fichier);
-        console.log(`mise à jour ${__filename}`);
+        console.log(`Caught exception: ${__filename}`);
         delete require.cache[fichier];
         require(fichier);
     });
