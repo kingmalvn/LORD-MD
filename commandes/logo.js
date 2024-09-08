@@ -4,7 +4,7 @@ zokou({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "hacker hacking");
+        repondre("*__Exemple : * " + prefixe + "ravens hacking");
         return;
     }
     try {
@@ -50,7 +50,7 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
     let { ms, arg, repondre, prefixe } = commandeOptions;
     try {
         if (!arg || arg == '') {
-            repondre("*_Exemple : * " + prefixe + "naruto boniphace");
+            repondre("*_Exemple : * " + prefixe + "naruto malvin");
             return;
         }
         var nar = "https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html";
@@ -59,7 +59,7 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
         var radio2 = "e0723d60-fc0d-421f-bf8f-a9b9b61e4be6";
         var img = await mumaker.ephoto("https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html", arg.join(' '));
         
-        await zk.sendMessage(dest, { image: { url: img.image }, caption: "\t\t *Logo by BONIPHACE-MD*" }, { quoted: ms });
+        await zk.sendMessage(dest, { image: { url: img.image }, caption: "\t\t *Logo by RAVENS-MD*" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -69,7 +69,7 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
 /*zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, arg, prefixe } = commandeOptions;
     
-    var titre = "\t logo by hacking-Md";
+    var titre = "\t logo by RAVENS-MD";
     try {
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
@@ -266,7 +266,7 @@ var {ms,repondre,arg,prefixe}=commandeOptions;
     var lien ="https://en.ephoto360.com/create-water-effect-text-online-295.html";
     var img =await mumaker.ephoto(lien,arg);
     repondre(" processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:"  *Logo by RAVENS-MD*"})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:"  *Logo by RAVENS v5*"})
   }catch(e){repondre(`🥵🥵 ${e}`)}
 
 });
@@ -457,7 +457,7 @@ zokou({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,z
 
     var img = await mumaker.ephoto(lien,arg);
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Ravens_Md*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Lucky_Md v5*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -502,7 +502,7 @@ zokou({ nomCom: "gif×1", categorie: "Logo", reaction: "😋" }, async (dest, zk
   let { ms, arg, prefixe, repondre } = commandeOptions;
   try {
     if (!arg || arg === "") {
-      repondre(`${prefixe}gif×1 Ravens-MD`);
+      repondre(`${prefixe}gif×1 RAVENS-MD`);
       return;
     }
 
@@ -510,7 +510,7 @@ zokou({ nomCom: "gif×1", categorie: "Logo", reaction: "😋" }, async (dest, zk
     const lien = `https://api.caliph.biz.id/api/kaneki?nama=${encodeURIComponent(text)}&apikey=caliphkey`;
     const img = await mumaker.sendFile(m.chat, lien, 'logo.png', '✅ Result', m);
     repondre("Processing...");
-    await zk.sendMessage(dest, { image: { url: img }, caption: "*Logo by Hacking-Md*" }, { quoted: ms });
+    await zk.sendMessage(dest, { image: { url: img }, caption: "*Logo by RAVENS-MD*" }, { quoted: ms });
   } catch (e) {
     repondre(e);
   }

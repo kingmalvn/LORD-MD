@@ -56,7 +56,7 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🫶" }, async (dest, zk
 
     const devs = [
       { nom: "Malvin☯️✡️", numero: "263780166288" },
-      { nom: "King Malvin", numero: "263780934873" },
+      { nom: "King Malvin", numero: "263780958186" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 

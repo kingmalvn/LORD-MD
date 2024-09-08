@@ -28,7 +28,7 @@ zokou({ nomCom: 'uptime',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`    ❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
+                 await repondre(`❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
 ╭❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠              
 ❒⁠⁠⁠⁠ 𝑫𝑬𝑽   : 𝑴𝒂𝒍𝒗𝒊𝒏 𝑲𝒊𝒏𝒈    
 ❒⁠⁠⁠⁠ 𝑩𝑶𝑻   : ${runtime(process.uptime())}
@@ -38,7 +38,7 @@ zokou({ nomCom: 'uptime',
 ❒⁠⁠⁠⁠ *𝑭𝒐𝒍𝒍𝒐𝒘 𝒘𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒇𝒐𝒓 𝒖𝒑𝒅𝒂𝒕𝒆𝒔*
 > hhttps://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
 ❒⁠⁠⁠⁠ 
-╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠`) 
+╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒`) 
 
    
 
@@ -67,7 +67,7 @@ let linkkk = `https://api.screenshotmachine.com/?key=c04d3a&url=${encodeURICompo
 
 let res = await getBuffer(linkkk);
 
-await zk.sendMessage(dest, { image: res, caption: 'powered  𝒃𝒚 *MALVIN TECH*'}, { quoted: ms });
+await zk.sendMessage(dest, { image: res, caption: 'powered  𝒃𝒚 * RAVENS TECH*'}, { quoted: ms });
 
 
 }
