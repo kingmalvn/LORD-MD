@@ -33,7 +33,7 @@
 <p align="center">
   <a href="https://github.com/kingmalvn/RAVENS-MD/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
   <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
-  <a href="https://youtube.com/@MalvinKing_TECH"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://youtube.com/@malvintech2"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 </
     
  
@@ -68,14 +68,14 @@
    *𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐁𝐘*
  
 
-<a href="https://malvin-session-gmgj.onrender.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/Malvin King-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://ravenssession-1127b51d295b.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/RAVENS MD APP-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
  
 
-<a href="https://malvin-session-gmgj.onrender.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR PAIRING CODE-h?color=blue&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://ravenssession-1127b51d295b.herokuapp.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR PAIRING CODE-h?color=blue&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
-<a href="https://malvin-session-gmgj.onrender.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=green&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://ravenssession-1127b51d295b.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=green&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
   *𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏*  
