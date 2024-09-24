@@ -1,6 +1,6 @@
 {
   "name":"RAVENS MD",
-  "description":"𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780934873, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚎 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳",
+  "description":"𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780166288, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚎 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg",
   "repository":"https://github.com/kingmalvn/RAVENS-MD",
@@ -81,7 +81,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of Zimbabwe '263')",
     "required":false,
-    "value": "263780934873"
+    "value": "263714757857"
 	  
   },
     "WARN_COUNT":
