@@ -1,4 +1,6 @@
-  *𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃*
+  **𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃**
+
+
 
   
  </a><a><img src='https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg'/></a>
@@ -100,6 +102,19 @@
 
 
 
+
+
+
+### DEPLOY ON RENDER
+
+***1. If you don't have an account in RENDER, create one and deploy.***
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+   <br>
+    <a href='https://dashboard.render.com/select-repo?type=web' target="_darkblue"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+   ###
 
 
 
