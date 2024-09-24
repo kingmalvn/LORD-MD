@@ -95,7 +95,9 @@
 **2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
 
 <a
-      href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
+      href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
+
+
 
 
 
