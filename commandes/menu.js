@@ -70,16 +70,16 @@ const date = moment().format('DD/MM/YYYY');
 ┃   Mode: ${mode}
 ┃   User : ${s.OWNER_NAME}
 ┃
-┣━ravens md new vision 𒈒━➠
-┗━━━𒈒by Malvin Tech𒈒━━┛\n\n`;
+┣━🔥ravens md new vision 𒈒━➠
+┗━━━𒈒by Malvin King𒈒━━┛\n\n`;
 
 
     
 
 let menuMsg = `
 ┏━━━━━━━━━━━━━━┓
-┣༆ravens md  
-┣༆by Malvin Tech
+┣🌀ravens md  
+┣🌀by Malvin Tech
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -97,7 +97,7 @@ ravens md cmds𒈒
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃༆ ${cmd}`;
+┃🌀 ${cmd}`;
 
         }
 
@@ -112,13 +112,13 @@ ravens md cmds𒈒
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏ravens md bot 
-┣❏by Malvin King 
+️┣❏🌀ravens md bot 
+┣❏🔥by Malvin King 
 ┗━━━━━━━━━━━━━━┛\n
 
 
 ┏━━━━━━━━━━━━━━┓
-┃powered by Malvin Tech 
+┃🥰powered by Malvin Tech 
 ┗━━━━━━━━━━━━━━┛\n
 
 

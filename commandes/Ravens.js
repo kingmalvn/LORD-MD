@@ -83,7 +83,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━━━━━━┓
-┣💫 ravens cmds
+┣💫ravens cmds
 ┗━━━━━━━━━┛\n
 
 
@@ -98,7 +98,7 @@ let menuMsg = `
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃ ✡️ ${cmd}`;
+┃ 🩵  ${cmd}`;
 
         }
 
@@ -113,11 +113,11 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏ravens md
-┣❏Enjoy life  
+️┣❏😜ravens md
+┣❏🥰Enjoy life  
 ┗┳━━━━━━━━━━━━┳┛
 ┏┻━━━━━━━━━━━━┻┓
-┃powered by Malvin Tech
+┃🥰powered by Malvin Tech
 ┗━━━━━━━━━━━━━━┛\n
 
 

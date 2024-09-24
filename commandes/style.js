@@ -13,7 +13,7 @@ function list(text, fancy) {
     let msg = '\n*Fancy Disponible:*\n\n';
     for (let style in styles) {
         if (style == 33) {
-            msg += (parseInt(style) + 1) + '. ' + 'boniphace-md' + '\n';
+            msg += (parseInt(style) + 1) + '. ' + 'ravens-md' + '\n';
         } else {
             msg += (parseInt(style) + 1) + '. ' + fancy.apply(fancy[parseInt(style)], text) + '\n';
         }

@@ -30,7 +30,7 @@ zokou({ nomCom: "sc", catégorie:"Général", reaction: "✨", nomFichier: __fil
 ┃📅 *RELEASE DATE:* ${releaseDate}
 ┃🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 ┃👨‍💻 *OWNER* :malvin_king
-┃🆔️ *SESSION_ID*: https://marval-king-2c5016b53af4.herokuapp.com/pair
+┃🆔️ *SESSION_ID*: https://ravenssession-1127b51d295b.herokuapp.com/pair
 ┃
 ┃👋😎 *SUPPORT*: https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
 ┗❏`;

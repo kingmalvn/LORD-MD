@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "🎭", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/kingmalvn/RAVENS-MD';
   const img = 'https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg';
 
