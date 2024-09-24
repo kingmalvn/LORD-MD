@@ -1,4 +1,6 @@
   *𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃*
+
+  
  </a><a><img src='https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg'/></a>
 <p align="center">
 <p align="center">
@@ -84,13 +86,13 @@
 
   *𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔*
 
-***1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
+**1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
 
 <a
       href='https://signup.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CREATE-purple?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
 
 
-***2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
+**2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
 
 <a
       href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
@@ -110,7 +112,7 @@
   <tr>
     <td><a href='https://wa.me/263714757857' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
-    <td>a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+   <td><a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 </td>
   </tr>
 </table>
