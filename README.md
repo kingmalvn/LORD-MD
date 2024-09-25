@@ -1,7 +1,8 @@
-  **𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃**
+  *𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃*
+  
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
-
-
+ <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+𝙆𝙄𝙉𝙂╺+MALVIN+-+𝗕𝗢𝗧.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝐌𝐑+MALVIN+𝐓𝐄𝐀𝐌;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+𝚖𝚊𝚕𝚟𝚒𝚗 𝚔𝚒𝚗𝚐;𝐌𝐑:+☬𝔻𝔸ℝ𝕂༒𝚁𝙰𝚅𝙴𝙽𝚂࿐;🫡𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥;😁𝐰𝐚+𝐛𝐨𝐭🌹.
   
  </a><a><img src='https://telegra.ph/file/dc73e16b9988c7c56b56f.jpg'/></a>
 <p align="center">
@@ -72,14 +73,14 @@
    *𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐁𝐘*
  
 
-<a href="https://ravenssession-1127b51d295b.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/Malvin King App-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://malvin-session-gmgj.onrender.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/Malvin King App-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
  
 
-<a href="https://ravenssession-1127b51d295b.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR PAIRING CODE-h?color=blue&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://malvin-session-gmgj.onrender.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR PAIRING CODE-h?color=blue&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
-<a href="https://ravenssession-1127b51d295b.herokuapp.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=green&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://malvin-session-gmgj.onrender.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=green&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
   *𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏*  
@@ -88,33 +89,18 @@
 
   *𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔*
 
-**1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
+***1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
 
 <a
       href='https://signup.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CREATE-purple?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
 
 
-**2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
+***2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
 
 <a
-      href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
+      href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
 
 
-
-
-
-
-
-### DEPLOY ON RENDER
-
-***1. If you don't have an account in RENDER, create one and deploy.***
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-   <br>
-    <a href='https://dashboard.render.com/select-repo?type=web' target="_darkblue"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-
-   ###
 
 
 
@@ -129,7 +115,7 @@
   <tr>
     <td><a href='https://wa.me/263714757857' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
-   <td><a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+    <td>a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 </td>
   </tr>
 </table>
