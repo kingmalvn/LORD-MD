@@ -105,6 +105,19 @@
 
 
 
+### DEPLOY ON RENDER
+
+***1. If you don't have an account in RENDER, create one and deploy.***
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+deploy+𝗢𝗡+RENDER)](https://git.io/typing-svg)
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+   <br>
+    <a href='https://dashboard.render.com/select-repo?type=web' target="_darkblue"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=render&logoColor=white'/></a>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+   ###
+
+
+
 
  *𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑*
 
@@ -116,7 +129,7 @@
   <tr>
     <td><a href='https://wa.me/263714757857' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
-    <td>a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+   <td><a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 </td>
   </tr>
 </table>
@@ -132,3 +145,4 @@
    *𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐫𝐚𝐯𝐞𝐧𝐬 𝐦𝐝 𝐰𝐚 𝐛𝐨𝐭*
 
    
+
