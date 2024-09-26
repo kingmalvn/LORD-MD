@@ -139,6 +139,9 @@ npm start
 ```
 
 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+contact+RAVENS-MD+Owner+on😁👇)](https://git.io/typing-svg)
+ 
  *𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑*
 
 <table>
