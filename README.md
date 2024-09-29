@@ -11,13 +11,22 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ RAVENS+MD★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MALVIN+KING;RELEASED+DATE+20%2F08%2F2024." alt="Typing SVG" />
 </h1> 
 <p align="center">𝐢𝐧𝐭𝐨𝐝𝐮𝐜𝐢𝐧𝐠 <b>RAVENS MD</b>, 𝐚 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐬𝐢𝐦𝐩𝐥𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐛𝐨𝐭 </p>
-
+<p align="center">
+<a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/kingmalvn-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/263714757857"><img title="Author" src="https://img.shields.io/badge/CHAT Me-black?style=for-the-badge&logo=whatsapp"></a>
+<p/>
+                                                                                                                                                    <p align="center">
+<a href="https://github.com/kingmalvn/followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?color=red&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/kingmalvn/RAVENS-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/RAVENS-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/RAVENS-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/kingmalvn/RAVENS-MD?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FRAVENS-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/kingmalvn/RAVENS-MDRAVENS-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
-  <p align="center">
-<a href="https://github.com/kingmalvn?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?label=Followers&style=social"></a>
-<a href="https://github.com/kingmalvn/RAVENS-MD/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/kingmalvn/RAVENS-MD?&style=social"></a>
-<a href="https://github.com/kingmalvn/RAVENS-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/RAVENS-MD?style=social"></a>
-<a href="https://github.com/kingmalvn/RAVENS-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/RAVENS-MD?label=Watching&style=social"></a>
+<p align='center'>
+    </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<p align="center">
 
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{kingmalvn}/count.svg" alt="RAVENS-MD :: Visitor's Count"/></p>
