@@ -33,7 +33,9 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/kingmalvn/RAVENS-MD"><b>RAVENS-MD</b></a> Supports Deploy On...
+  <a href="https://github.com/kingmalvn/RAVENS-MD"><b>RAVENS-MD</b></a> 
+ 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=☆+Support+Deployments+on...👇👇)](https://git.io/typing-svg)
 </p>
 
 <p align="center">
@@ -60,10 +62,11 @@
 
   *𝟏. 𝐅𝐈𝐑𝐒𝐓 𝐒𝐓𝐄𝐏* 
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=■+Fork+RAVENS-MD+Repo)](https://git.io/typing-svg)
 
 <a href="https://github.com/kingmalvn/RAVENS-MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
-**star✨ my repo if you like this bot🤖**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=star✨+my+repo+if+you+like+this+bot🤖)](https://git.io/typing-svg)
 
 
    *𝟐. 𝐒𝐄𝐂𝐎𝐍𝐃 𝐒𝐓𝐄𝐏*
@@ -71,7 +74,7 @@
   
 
 
-   *𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐁𝐘*
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=GET+SESSION_ID+FOR+RAVENS-MD)](https://git.io/typing-svg)
  
 
 <a href="https://malvin-session-0h9e.onrender.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/Malvin King App-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
@@ -88,7 +91,7 @@
  
 
 
-  *𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔*
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=■+DEPLOY+ON+HEROKU)](https://git.io/typing-svg)
 
 ***1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ*
 
