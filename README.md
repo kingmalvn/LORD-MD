@@ -116,17 +116,8 @@
 
 
 
+### Deploy on Termux in progress
 
-### DEPLOY ON RENDER
-
-***1. If you don't have an account in RENDER, create one and deploy.***
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+deploy+𝗢𝗡+RENDER)](https://git.io/typing-svg)
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-   <br>
-    <a href='https://dashboard.render.com/select-repo?type=web' target="_darkblue"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=render&logoColor=white'/></a>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-
-   ###
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+in+progress+on+termux)](https://git.io/typing-svg)
  
