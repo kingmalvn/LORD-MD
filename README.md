@@ -1,4 +1,4 @@
-  *𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃*
+  ### 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃
   
   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
@@ -156,6 +156,20 @@ npm start
     <td><a href='https://wa.me/263714757857' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
    <td><a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>TIKTOK</td>
+    <td>INSTAGRAM</td>
+  </tr>
+  <tr>
+    <td><a href='https://www.tiktok.com/@malvinquotes' target="_blank"><img alt='tiktok' src='https://img.shields.io/badge/Follow Me-blue?style=for-the-badge&logo=tiktok&logoColor=black'/></a>
+
+   <td><a href='https://www.instagram.com/@malvinking20' target="_blank"><img alt='INSTAGRAM'src='https://img.shields.io/badge/Follow Me-blue?style=for-the-badge&logo=Instagram&logoColor=red'/></a>
 </td>
   </tr>
 </table>
