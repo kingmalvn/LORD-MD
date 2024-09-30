@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name RAVENS-MD",
-    "stop": "pm2 stop RAVENS-MD",
-    "restart": "pm2 restart RAVENS-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Ethix-MD",
+    "stop": "pm2 stop Ethix-MD",
+    "restart": "pm2 restart Ethix-MD"
   },
-  "keywords": ["RAVENS-MD", "whatsapp-bot", "whatsapp md bot"],
+  "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
   "author": "мαℓνιη кιηg",
   "license": "ISC",
   "dependencies": {
