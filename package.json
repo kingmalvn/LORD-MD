@@ -1,5 +1,5 @@
 {
-  "name": "𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳",
+  "name": "RAVENS-MD",
   "version": "10.8.1",
   "description": "𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780166288, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚎 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳 bot",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "stop": "pm2 stop RAVENS-MD",
     "restart": "pm2 restart RAVENS-MD"
   },
-  "keywords": ["ravens-md", "whatsapp-bot", "whatsapp md bot"],
+  "keywords": ["RAVENS-MD", "whatsapp-bot", "whatsapp md bot"],
   "author": "мαℓνιη кιηg",
   "license": "ISC",
   "dependencies": {
