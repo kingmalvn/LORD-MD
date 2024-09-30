@@ -79,7 +79,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                 text: `Mercedes TikTok Download\n\nTitle: ${currentResult.data.title}\nAuthor: ${currentResult.data.author.nickname}\nViews: ${currentResult.data.view}\nDuration: ${currentResult.data.duration}s\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© 𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕"
+                text: "© 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                  ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/fbbe1744668b44637c21a.jpg` } }, { upload: Matrix.waUploadToServer })),
