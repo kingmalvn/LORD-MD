@@ -26,7 +26,7 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*𝙹𝙾𝚎𝚕 𝙼𝙳 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴*
+    const uptimeMessage = `*𝙻𝚘𝚛𝚍 𝙼𝙳 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴*
 ╭❐
 ┇ *${days} Day(s)*
 ┇ *${hours} Hour(s)*
