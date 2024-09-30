@@ -9,7 +9,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
   if (cmd === 'anticall') {
-    if (!isCreator) return m.reply("*𝚘𝚗𝚕𝚢 𝙹𝙾𝚎𝚕 𝚖𝚎 𝚘𝚠𝚗𝚎𝚛 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚍𝚒𝚜 𝚌𝚖𝚍*");
+    if (!isCreator) return m.reply("*𝚘𝚗𝚕𝚢 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗 𝚖𝚎 𝚘𝚠𝚗𝚎𝚛 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚍𝚒𝚜 𝚌𝚖𝚍*");
     let responseMessage;
 
     if (text === 'on') {
