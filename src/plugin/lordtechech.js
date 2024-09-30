@@ -76,7 +76,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
        const mode = config.MODE === 'public' ? 'public' : 'private';
        const pref = config.PREFIX;
            
-        const validCommands = ['joel', 'dev', 'channel','group'];
+        const validCommands = ['lord', 'dev', 'channel','group'];
 
   if (validCommands.includes(cmd)) {
     let msg = generateWAMessageFromContent(m.from, {
@@ -199,7 +199,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363296314610373@newsletter',
-                  newsletterName: "𝙹𝙾𝚎𝚕 𝚃𝚎𝚌𝚑",
+                  newsletterName: "𝙻𝚘𝚛𝚍 𝚃𝚎𝚌𝚑",
                   serverMessageId: 143
                 }
               }
@@ -217,7 +217,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┏❑ 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗 𝚖𝚍 𝚋𝚘𝚝
 ┃𝚋𝚘𝚝 𝚗𝚊𝚖𝚎:*𝙻𝚘𝚛𝚍 𝚋𝚘𝚝*
 ╽𝚟𝚒𝚜𝚒𝚘𝚗: 𝟼.𝟶.𝟶
-┃ᴏᴡɴᴇʀ : *𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗*      
+┃ᴏᴡɴᴇʀ: *𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗*      
 ┃𝚜𝚝𝚊𝚝𝚞𝚜:𝚋𝚘𝚝 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎
 ┃𝚙𝚕𝚊𝚝𝚒𝚏𝚘𝚛𝚖: 𝚌𝚑𝚛𝚘𝚖𝚎(𝙻𝚒𝚗𝚞𝚡)
 ┃𝚖𝚘𝚜𝚎 : *${mode}*
