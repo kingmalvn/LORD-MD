@@ -70,20 +70,20 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 RAVENS-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 Ethix-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["RAVENS-MD", "safari", "3.3"],
+            browser: ["Ethix-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "RAVENS-MD whatsapp user bot" };
+                return { conversation: "Ethix-MD whatsapp user bot" };
             }
         });
 
@@ -156,7 +156,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('Ravens md v2 is online!');
+    res.send('Hello World!');
 });
 
 app.listen(PORT, () => {
