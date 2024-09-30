@@ -65,12 +65,14 @@
 ---
 
 
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 
 
   *𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃*
 
  
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 
   *𝟏. 𝐅𝐈𝐑𝐒𝐓 𝐒𝐓𝐄𝐏* 
@@ -145,6 +147,7 @@ npm install
 npm start
 ```
 
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+contact+RAVENS-MD+Owner+on😁👇)](https://git.io/typing-svg)
@@ -163,8 +166,7 @@ npm start
 </td>
   </tr>
 </table>
-
-
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 <table>
   <tr>
     <td>TIKTOK</td>
