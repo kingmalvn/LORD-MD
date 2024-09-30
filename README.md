@@ -1,4 +1,4 @@
-  ### 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃
+  ### WELCOME TO LORD-MD WA BOT
   
   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
