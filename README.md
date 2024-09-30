@@ -69,7 +69,10 @@
 
 
 
-  *𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐑𝐀𝐕𝐄𝐍𝐒 𝐌𝐃*
+  ### 🚀 Deployment Options
+
+**You can deploy the RAVENS-MD-V2 bot using two methods**: **Heroku** or **Termux**. **Choose the method that suits you best***.
+
 
  
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
@@ -92,14 +95,8 @@
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=GET+SESSION_ID+FOR+RAVENS-MD)](https://git.io/typing-svg)
  
 
-<a href="https://malvin-session-0h9e.onrender.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/Malvin King App-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href='https://professional-kitty-goutammallick516-86803e18.koyeb.app' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-neon?style=for-the-badge&logo=opencv&logoColor=red'/></a>
 
- 
-
-<a href="https://malvin-session-0h9e.onrender.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR PAIRING CODE-h?color=blue&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
-
-
-<a href="https://malvin-session-0h9e.onrender.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=green&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
   *𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏*  
@@ -162,7 +159,7 @@ You can also deploy the bot directly on your Android device using Termux. Here�
    Change into the project directory:
 
    ```bash
-   cd Ethix-MD-V2
+   cd RAVENS-MD
    ```
 
 5. **Set the `SESSION_ID` in the `.env` File:**
