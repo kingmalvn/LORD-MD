@@ -15,7 +15,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
     try {
       await m.React('🕘');
-      await m.reply('A moment, *ᴊᴏᴇʟ ᴍᴅ* is generating your lyrics request...');
+      await m.reply('A moment, *𝙻𝚘𝚛𝚍 ᴍᴅ* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Spectre|Alan Walker.');
@@ -46,7 +46,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
               display_text: "Support",
-              url: `https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x`
+              url: `https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z`
             })
           },
           {
@@ -70,7 +70,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴏᴇʟ*"
+                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
