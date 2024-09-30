@@ -26,11 +26,11 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*𝙹𝙾𝚎𝚕 𝙼𝙳 𝚁𝙴𝙿𝙾*
+    const uptimeMessage = `*𝙻𝚘𝚛𝚍 𝙼𝙳 𝚁𝙴𝙿𝙾*
 ╭❐
-┇ creator:𝙹𝙾𝚎𝚕 𝚃𝚎𝚌𝚑
+┇ creator:𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗
 ┇ repo
-┇ https://github.com/joeljamestech/JOEL-MD
+┇ https://github.com/kingmalvn/LORD-MD
 ╰❑
 `;
     
@@ -46,7 +46,7 @@ const alive = async (m, Matrix) => {
         "name": "quick_reply",
         "buttonParamsJson": JSON.stringify({
           display_text: "𝙶𝚒𝚝𝙷𝚞𝚋",
-          id: `https://github.com/joeljamestech/JOEL-MD`
+          id: `https://github.com/kingmalvn/LORD-MD`
         })
       }
     ];
@@ -80,8 +80,8 @@ const alive = async (m, Matrix) => {
               forwardingScore: 999,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '255714595078@s.whatsapp.net',
-                newsletterName: "JOel",
+                newsletterJid: '263780166288@s.whatsapp.net',
+                newsletterName: "𝙻𝚘𝚛𝚍",
                 serverMessageId: 143
               }
             }
