@@ -122,30 +122,92 @@
 
 
 
-### Deploy on Termux in progress
+### Deploy to Termux Now...
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+in+progress+on+termux)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+Deploy+to+termux+now..100%)](https://git.io/typing-svg)
  
 
 
- **DEPLOY ON TERMUX**
- ```   
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/kingmalvn/RAVENS-MD 
-cd RAVENS-MD 
-npm install
-npm start
-```
+### Deploy to Termux
+
+You can also deploy the bot directly on your Android device using Termux. Here’s how:
+
+1. **Install Termux:**
+
+   If you don't have Termux installed, download it from the Google Play Store or F-Droid.
+
+   - [Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
+   - [F-Droid](https://f-droid.org/en/packages/com.termux/)
+
+2. **Update and Install Required Packages:**
+
+   Open Termux and run the following commands to update packages and install required dependencies:
+
+   ```bash
+   pkg update && pkg upgrade
+   pkg install git nodejs -y
+   ```
+
+3. **Clone the Repository:**
+
+   Clone the forked repository using the following command:
+
+   ```bash
+   git clone https://github.com/kingmalvn/RAVENS-MD.git
+   ```
+
+4. **Navigate to the Project Directory:**
+
+   Change into the project directory:
+
+   ```bash
+   cd Ethix-MD-V2
+   ```
+
+5. **Set the `SESSION_ID` in the `.env` File:**
+
+   To set the `SESSION_ID`, you need to create or edit the `.env` file in the project directory.
+
+   - **Create/Edit the `.env` File:**
+
+     Open (or create) the `.env` file using a text editor like `nano`:
+
+     ```bash
+     nano .env
+     ```
+
+   - **Add the `SESSION_ID` Variable:**
+
+     Add the following line to the `.env` file:
+
+     ```bash
+     SESSION_ID='your-session-id-here'
+     ```
+
+     Replace `'your-session-id-here'` with the actual session ID you obtained.
+
+   - **Save and Exit:**
+
+     If using `nano`, save the changes by pressing `CTRL + X`, then `Y`, and then `Enter` to exit.
+
+6. **Install Node Modules:**
+
+   Install the required Node.js modules:
+
+   ```bash
+   npm install
+   ```
+
+7. **Start the Bot:**
+
+   Finally, start the bot with the following command:
+
+   ```bash
+   node .
+   ```
+
+   Make sure to keep Termux open to maintain the bot's operation.
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
