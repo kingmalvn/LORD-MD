@@ -1,16 +1,16 @@
 {
-  "name": "RAVENS-MD",
+  "name": "𝙹𝙾𝚎𝚕 𝚃𝚎𝚌𝚑",
   "version": "10.8.1",
-  "description": "𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780166288, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚎 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳 bot",
+  "description": "Mercedes latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Ethix-MD",
-    "stop": "pm2 stop Ethix-MD",
-    "restart": "pm2 restart Ethix-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Mercedes",
+    "stop": "pm2 stop Mercedes",
+    "restart": "pm2 restart Mercedes"
   },
-  "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "мαℓνιη кιηg",
+  "keywords": ["Mercedes", "whatsapp-bot", "whatsapp md bot"],
+  "author": "Marisel",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
