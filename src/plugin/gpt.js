@@ -117,7 +117,7 @@ const prompt = m.body.slice(prefix.length + cmd.length).trim();
                                     text: answer
                                 }),
                                 footer: proto.Message.InteractiveMessage.Footer.create({
-                                    text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙹𝙾𝚎𝚕"
+                                    text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙻𝚘𝚛𝚍"
                                 }),
                                 header: proto.Message.InteractiveMessage.Header.create({
                                     title: "",
