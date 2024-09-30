@@ -70,20 +70,20 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 Ethix-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳 using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["Ethix-MD", "safari", "3.3"],
+            browser: ["𝚁𝙰𝚅𝙴𝙽𝚂-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "Ethix-MD whatsapp user bot" };
+                return { conversation: "𝚁𝙰𝚅𝙴𝙽𝚂-MD whatsapp user bot" };
             }
         });
 
@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 Integration Successful️ ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️ ✅` });
+                    console.log(chalk.green("😃 𝚁𝙰𝚅𝙴𝙽𝚂 𝚖𝚍 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `😃 𝚁𝙰𝚅𝙴𝙽𝚂 𝚖𝚍 𝚒𝚜 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍uccessful️ ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
@@ -156,7 +156,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('RAVENS MD IS ONLINE');
 });
 
 app.listen(PORT, () => {
