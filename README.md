@@ -10,7 +10,11 @@
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ RAVENS+MD★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MALVIN+KING;RELEASED+DATE+20%2F08%2F2024." alt="Typing SVG" />
 </h1> 
-<p align="center">𝐢𝐧𝐭𝐨𝐝𝐮𝐜𝐢𝐧𝐠 <b>RAVENS MD</b>, 𝐚 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐬𝐢𝐦𝐩𝐥𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐛𝐨𝐭 </p>
+<p align="center">  <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+ <a href="https://github.com/DenverCoder1/readme-typing-svg">
+<img src="https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=Introducing+Ravens+MD╺+.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝐌𝐑+MALVIN+KING;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+𝚖𝚊𝚕𝚟𝚒𝚗+𝚔𝚒𝚗𝚐;𝐌𝐑:+☬𝔻𝔸ℝ𝕂༒𝚁𝙰𝚅𝙴𝙽𝚂࿐;🫡𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥;😁𝐰𝐚+fast+𝐛𝐨𝐭🌹."alt="Typing SVG" />
+ </p>
 <p align="center">
 <a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/kingmalvn-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/263714757857"><img title="Author" src="https://img.shields.io/badge/CHAT Me-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>
