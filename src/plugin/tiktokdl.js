@@ -82,7 +82,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                 text: "© 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                 ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/fbbe1744668b44637c21a.jpg` } }, { upload: Matrix.waUploadToServer })),
+                 ...(await prepareWAMessageMedia({ image: { url: `https://files.catbox.moe/w5doyr.jpg` } }, { upload: Matrix.waUploadToServer })),
                 title: "",
                 gifPlayback: true,
                 subtitle: "",
@@ -137,9 +137,9 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
           const fileSizeInMB = finalMediaBuffer.length / (1024 * 1024);
 
           if (type === 'video' && fileSizeInMB <= 300) {
-            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> 𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕' };
+            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗' };
           } else if (type === 'audio' && fileSizeInMB <= 300) {
-            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> 𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕' };
+            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗' };
           }
 
           await Matrix.sendMessage(m.from, content, { quoted: m });
