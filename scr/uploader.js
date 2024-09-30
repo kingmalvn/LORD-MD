@@ -78,7 +78,7 @@ export const webp2mp4File = async (path) => {
       const result = 'https:' + $2('div#output > p.outfile > video > source').attr('src');
       resolve({
         status: true,
-        message: "Created By 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳",
+        message: "Created By Ethix-MD",
         result: result
       });
     } catch (err) {
