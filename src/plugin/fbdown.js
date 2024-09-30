@@ -80,7 +80,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `*𝙹𝙾𝚎𝚕 FACEBOOK POST DOWNLOADER*\n\n> *TITLE*: ${fbData.title}`
+                text: `*𝙻𝙾𝚁𝙳 FACEBOOK POST DOWNLOADER*\n\n> *TITLE*: ${fbData.title}`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
                 text: "© powered by Mercedes"
@@ -146,7 +146,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             content = { 
               video: finalMediaBuffer, 
               mimetype: 'video/mp4', 
-              caption: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙹𝙾𝚎𝚕',
+              caption: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙻𝚘𝚛𝚍',
             };
             await Matrix.sendMessage(m.from, content, { quoted: m });
           } else {
