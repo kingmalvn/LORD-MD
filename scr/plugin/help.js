@@ -89,147 +89,16 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `┏❐ ʟᴏʀᴅ ᴍᴀʟᴠɪɴ 𝙼𝚍 𝙱𝚘𝚝 ❑
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ʀᴀᴠᴇɴꜱ-ᴍᴅ*
-│📍 ᴠᴇʀꜱɪᴏɴ: 2.1.0
-│👨‍💻 ᴏᴡɴᴇʀ : *ʟᴏʀᴅ ᴍᴀʟᴠɪɴ*      
-│👤 ɴᴜᴍʙᴇʀ: 263780166288
-│📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-│🛡 ᴍᴏᴅᴇ: *${mode}*
-│💫 ᴘʀᴇғɪx: [${pref}]
-│💝 ʀᴀᴠᴇɴꜱ by ʟᴏʀᴅ ᴍᴀʟᴠɪɴ 𝙼𝚍
-╰─────────────━┈⊷ `
-            }),
-            footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀᴠᴇɴꜱ-ᴍᴅ"
-            }),
-            header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ravens.jpg')}, { upload: Matrix.waUploadToServer})), 
-                  title: ``,
-                  gifPlayback: true,
-                  subtitle: "",
-                  hasMediaAttachment: false  
-                }),
-            nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
-              buttons: [
-                {
-          "name": "quick_reply",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "ALIVE",
-            id: `${prefix}alive`
-          })
-        },
-        {
-          "name": "quick_reply",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "PING",
-            id: `${prefix}ping`
-          })
-        },
-                {
-                  "name": "single_select",
-                  "buttonParamsJson": `{"title":"👑Tap to Open all Menu👑",
-                 "sections":
-                   [{
-                    "title":"😎 ʀᴀᴠᴇɴꜱ-ᴍᴅ all menu🫡",
-                    "highlight_label":"🤩 All MENU",
-                    "rows":[
-                      {
-                       "header":"",
-                       "title":"🫡 ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"ʀᴀᴠᴇɴꜱ-ᴍᴅ All Menu🎨",
-                       "id":"View All Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"⬇️ ᴅᴏᴡɴʟᴀᴏᴅᴇʀ ᴍᴇɴᴜ",
-                        "description":"📂𝐒𝚮𝚯𝐖 𝚫𝐋𝐋 𝐃𝚯𝐖𝚴𝐋𝚯𝚫𝐃 𝐅𝚵𝚫𝚻𝐔𝚪𝚵𝐒🗂",
-                        "id":"Downloader Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"👨‍👨‍👧‍👧ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                        "description":"🥵𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝚫𝛁𝚰𝐋𝚫𝚩𝐋𝚵 𝐅𝚯𝚪 𝐆𝚪𝚯𝐔𝚸🥵",
-                        "id":"Group Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"👨‍🔧 ᴛᴏᴏʟ ᴍᴇɴᴜ",
-                        "description":"🛠 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚻𝚯𝚯𝐋 𝚳𝚵𝚴𝐔",
-                        "id":"Tool Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"🗿 ᴍᴀɪɴ ᴍᴇɴᴜ",
-                        "description":"📪 𝚩𝚯𝚻 𝚳𝚫𝚰𝚴 𝐂𝚯𝚳𝚳𝚫𝚴𝐃𝐒🗳",
-                        "id":"Main Menu"
-                      },
-                     {
-                        "header":"",
-                        "title":"👨‍💻 ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
-                        "description":"😎𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝐅𝚯𝚪 𝚳𝐘 𝚮𝚫𝚴𝐃𝐒𝚯𝚳𝚵 𝚯𝐖𝚴𝚵𝚪👨‍💼",
-                        "id":"Owner Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"✨ ᴀɪ ᴍᴇɴᴜ",
-                        "description":"💫 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚫𝚰 𝚳𝚵𝚴𝐔 🎇",
-                        "id":"Ai Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"🔍sᴇᴀʀᴄʜ ᴍᴇɴᴜ🔎",
-                        "description":"♂️ 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚵𝚫𝚪𝐂𝚮 𝚳𝚵𝚴𝐔",
-                        "id":"Search Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"🧚‍♂️ sᴛᴀʟᴋ ᴍᴇɴᴜ",
-                        "description":"👨‍💼 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚻𝚫𝐋𝐊 𝚳𝚵𝚴𝐔🪆",
-                        "id":"Stalk Menu"
-                      },
-                      {
-                        "header":"",
-                        "title":"🥏 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚎𝚛 𝚖𝚎𝚗𝚞",
-                        "description":"🛷 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐂𝚯𝚴𝛁𝚵𝚪𝚻𝚵𝚪 𝚳𝚵𝚴𝐔",
-                        "id":"Converter Menu"
-                      }
-                    ]}
-                  ]}`
-                },
-              ],
-            }),
-            contextInfo: {
-                  quotedMessage: m.message,
-                  mentionedJid: [m.sender], 
-                  forwardingScore: 999,
-                  isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
-                  serverMessageId: 143
-                }
-              }
-          }),
-        },
-      },
-    }, {});
-
-    await Matrix.relayMessage(msg.key.remoteJid, msg.message, {
-      messageId: msg.key.id
-    });
-  }
-      if (selectedId == "View All Menu") {
-        const str = `hey ${m.pushName} ${pushwish}
-┏❐ ʟᴏʀᴅ ᴍᴀʟᴠɪɴ 𝙼𝚍 𝙱𝚘𝚝 ❑
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ʀᴀᴠᴇɴꜱ-ᴍᴅ*
-│📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│👨‍💻 ᴏᴡɴᴇʀ : *ʟᴏʀᴅ ᴍᴀʟᴠɪɴ*      
-│👤 ɴᴜᴍʙᴇʀ: 263780166288
-│💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-│🛡 ᴍᴏᴅᴇ: *${config.MODE}*
-│💫 ᴘʀᴇғɪx: [${pref}]
-╰─────────────━┈⊷ 
-╭━❮ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 ❯━╮
+┃🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ʀᴀᴠᴇɴꜱ-ᴍᴅ*
+┃📍 ᴠᴇʀꜱɪᴏɴ: 6.0.0
+┃👨‍💻 ᴏᴡɴᴇʀ : *ʟᴏʀᴅ ᴍᴀʟᴠɪɴ*      
+┃👤 ɴᴜᴍʙᴇʀ: 263780166288
+┃💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
+┃🛡 ᴍᴏᴅᴇ: *${config.MODE}*
+┃💫 ᴘʀᴇғɪx: [${pref}]
+┃💝 ʀᴀᴠᴇɴꜱ: *by ʟᴏʀᴅ ᴍᴀʟᴠɪɴ*
+┗❑
+┏❐ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿2
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿3
@@ -237,8 +106,8 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┃✰ ${prefix}𝙳𝙱𝙸𝙽𝙰𝚁𝚈
 ┃✰ ${prefix}𝙴𝙼𝙾𝙹𝙸𝙼𝙸𝚇
 ┃✰ ${prefix}𝙼𝙿3
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙰𝙸 ❯━╮
+┗❑
+┏❐ 𝙰𝙸 
 ┃✰ ${prefix}𝙰𝚒
 ┃✰ ${prefix}𝙱𝚞𝚐
 ┃✰ ${prefix}𝚁𝚎𝚙𝚘𝚛𝚝
@@ -246,15 +115,15 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┃✰ ${prefix}𝙳𝚊𝚕𝚕𝚎
 ┃✰ ${prefix}𝚁𝚎𝚖𝚒𝚗𝚒
 ┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝚃𝙾𝙾𝙻 ❯━╮
+┗❑
+┏❐ 𝚃𝙾𝙾𝙻 
 ┃✰ ${prefix}𝙲𝚊𝚕𝚌𝚞𝚕𝚊𝚝𝚘𝚛
 ┃✰ ${prefix}𝚃𝚎𝚖𝚙𝚖𝚊𝚒𝚕
 ┃✰ ${prefix}𝙲𝚑𝚎𝚌𝚔𝚖𝚊𝚒𝚕
 ┃✰ ${prefix}𝚃𝚛𝚝
 ┃✰ ${prefix}𝚃𝚝𝚜
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙶𝚁𝙾𝚄𝙿 ❯━╮
+┗❑
+┏❐ 𝙶𝚁𝙾𝚄𝙿 
 ┃✰ ${prefix}𝙻𝚒𝚗𝚔𝙶𝚛𝚘𝚞𝚙
 ┃✰ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚐𝚌
 ┃✰ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎
@@ -271,8 +140,8 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┃✰ ${prefix}𝙿𝚛𝚘𝚖𝚘𝚝𝚎
 ┃✰ ${prefix}𝙳𝚎𝚖𝚘𝚝𝚎
 ┃✰ ${prefix}𝙶𝚎𝚝𝚋𝚒𝚘
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 ❯━╮
+┗❑
+╭❐ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳
 ┃✰ ${prefix}𝙰𝚙𝚔
 ┃✰ ${prefix}𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
 ┃✰ ${prefix}𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
@@ -288,8 +157,8 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┃✰ ${prefix}𝚈𝚝𝚖𝚙3𝚍𝚘𝚌
 ┃✰ ${prefix}𝚈𝚝𝚖𝚙4𝚍𝚘𝚌
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝚂𝙴𝙰𝚁𝙲𝙷 ❯━╮
+╰❑
+╭❐ 𝚂𝙴𝙰𝚁𝙲𝙷
 ┃✰ ${prefix}𝙿𝚕𝚊𝚢
 ┃✰ ${prefix}𝚈𝚝𝚜
 ┃✰ ${prefix}𝙸𝚖𝚍𝚋
@@ -301,15 +170,15 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┃✰ ${prefix}𝚈𝚝𝚜𝚎𝚊𝚛𝚌𝚑
 ┃✰ ${prefix}𝚁𝚒𝚗𝚐𝚝𝚘𝚗𝚎
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙼𝙰𝙸𝙽 ❯━╮
+╰❑
+╭❐ 𝙼𝙰𝙸𝙽
 ┃✰ ${prefix}𝙿𝚒𝚗𝚐
 ┃✰ ${prefix}𝙰𝚕𝚒𝚟𝚎
 ┃✰ ${prefix}𝙾𝚠𝚗𝚎𝚛
 ┃✰ ${prefix}𝙼𝚎𝚗𝚞
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙾𝚆𝙽𝙴𝚁 ❯━╮
+╰❑
+╭❐ 𝙾𝚆𝙽𝙴𝚁
 ┃✰ ${prefix}𝙹𝚘𝚒𝚗
 ┃✰ ${prefix}𝙻𝚎𝚊𝚟𝚎
 ┃✰ ${prefix}𝙱𝚕𝚘𝚌𝚔
@@ -322,53 +191,190 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┃✰ ${prefix}𝙰𝚕𝚠𝚊𝚢𝚜𝙾𝚗𝚕𝚒𝚗𝚎
 ┃✰ ${prefix}𝙰𝚞𝚝𝚘𝚁𝚎𝚊𝚍
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
-╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝚂𝚃𝙰𝙻𝙺 ❯━╮
+╰❑
+╭❐ 𝚂𝚃𝙰𝙻𝙺
 ┃✰ ${prefix}𝚃𝚛𝚞𝚎𝚌𝚊𝚕𝚕𝚎𝚛
 ┃✰ ${prefix}𝙸𝚗𝚜𝚝𝚊𝚂𝚝𝚊𝚕𝚔
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
-╰━━━━━━━━━━━━━━━⪼
-   `;
-        let fgg = {
-            key: {
-                fromMe: false,
-                participant: `0@s.whatsapp.net`,
-                remoteJid: "status@broadcast"
-            },
-            message: {
-                contactMessage: {
-                    displayName: `Ethix-MD`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'RAVENS-MD"\nitem1.TEL;waid=${
-                        m.sender.split("@")[0]
-                    }:${
-                        m.sender.split("@")[0]
-                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
-                }
-            }
-        };
-       let { key } = await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
-  caption: str, 
-  contextInfo: { 
+╰❐
+  `
+            }),
+            footer: proto.Message.InteractiveMessage.Footer.create({
+              text: "𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 ʟᴏʀᴅ ᴍᴀʟᴠɪɴ"
+            }),
+            header: proto.Message.InteractiveMessage.Header.create({
+                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./Ravens/ravens.jpg')}, { upload: Matrix.waUploadToServer})), 
+                  title: ``,
+                  gifPlayback: true,
+                  subtitle: "",
+                  hasMediaAttachment: false  
+                }),
+            nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
+              buttons: [
+                {
+          "name": "quick_reply",
+          "buttonParamsJson": JSON.stringify({
+            display_text: "𝙰𝚕𝚒𝚟𝚎",
+            id: `${prefix}alive`
+          })
+        },
+        {
+          "name": "quick_reply",
+          "buttonParamsJson": JSON.stringify({
+            display_text: "𝚙𝚒𝚗𝚐",
+            id: `${prefix}ping`
+          })
+        },
+                {
+                  "name": "single_select",
+                  "buttonParamsJson": `{"title":"𝚖𝚎𝚗𝚞𝚜",
+                 "sections":
+                   [{
+                    "title":"𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳 All Menu",
+                    "highlight_label":"ALL MENU",
+                    "rows":[
+                      {
+                       "header":"",
+                       "title":"🔰 ᴀʟʟ ᴍᴇɴᴜ",
+                       "description":"𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳 All Menu",
+                       "id":"View All Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"⬇️ ᴅᴏᴡɴʟᴀᴏᴅᴇʀ ᴍᴇɴᴜ",
+                        "description":"📂Show All Download Features🗂",
+                        "id":"Downloader Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"👨‍👨‍👧‍👧ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
+                        "description":"Only Group Commands",
+                        "id":"Group Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"👨‍🔧 ᴛᴏᴏʟ ᴍᴇɴᴜ",
+                        "description":"All Tools Menu",
+                        "id":"Tool Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"🗿 ᴍᴀɪɴ ᴍᴇɴᴜ",
+                        "description":"📪 Bot Main Commands🗳",
+                        "id":"Main Menu"
+                      },
+                     {
+                        "header":"",
+                        "title":"👨‍💻 ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
+                        "description":"Only 𝙹𝚘𝚎𝚕's Commands",
+                        "id":"Owner Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"✨ ᴀɪ ᴍᴇɴᴜ",
+                        "description":"Artificial Intelligence Menu",
+                        "id":"Ai Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"🔍sᴇᴀʀᴄʜ ᴍᴇɴᴜ🔎",
+                        "description":"Search Anything Here",
+                        "id":"Search Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"🧚‍♂️ sᴛᴀʟᴋ ᴍᴇɴᴜ",
+                        "description":"Stalk Anyone Here",
+                        "id":"Stalk Menu"
+                      },
+                      {
+                        "header":"",
+                        "title":"🥏 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚎𝚛 𝚖𝚎𝚗𝚞",
+                        "description":"Convert Anything Here",
+                        "id":"Converter Menu"
+                      }
+                    ]}
+                  ]}`
+                },
+              ],
+            }),
+            contextInfo: {
+                  quotedMessage: m.message,
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "ʀᴀᴠᴇɴꜱ 𝚃𝚎𝚌𝚑",
                   serverMessageId: 143
                 }
               }
-}, {
-  quoted: fgg
-});
-}
-   if ( selectedId == "Downloader Menu") {
-     const str = `╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
-│➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
-│➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 ❯━╮
+          }),
+        },
+      },
+    }, {});
+
+    await Matrix.relayMessage(msg.key.remoteJid, msg.message, {
+      messageId: msg.key.id
+    });
+  }
+      if (selectedId == "View All Menu") {
+        const str = `Hello ${m.pushName} ${pushwish}
+┏❑ ʟᴏʀᴅ ᴍᴀʟᴠɪɴ 𝙼𝚍 𝙱𝚘𝚝 ❑
+┃𝚋𝚘𝚝 𝚗𝚊𝚖𝚎:*𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳*
+╽𝚟𝚒𝚜𝚒𝚘𝚗: 𝟼.𝟶.𝟶
+┃ᴏᴡɴᴇʀ : *ʟᴏʀᴅ ᴍᴀʟᴠɪɴ*      
+┃𝚜𝚝𝚊𝚝𝚞𝚜:𝚋𝚘𝚝 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎
+┃𝚙𝚕𝚊𝚝𝚒𝚏𝚘𝚛𝚖: 𝚌𝚑𝚛𝚘𝚖𝚎(𝙻𝚒𝚗𝚞𝚡)
+┃𝚖𝚘𝚜𝚎 : *${mode}*
+┃𝚙𝚛𝚎𝚏𝚒𝚡: [${pref}]
+┃𝚝𝚑𝚎𝚖𝚎: ʀᴀᴠᴇɴꜱ💝
+┃𝙻𝚒𝚋𝚛𝚊𝚛𝚢:𝚋𝚊𝚒𝚕𝚠𝚊𝚢𝚜(𝚆𝙱)
+┗❑
+┏❐ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁
+┃✰ ${prefix}𝙰𝚃𝚃𝙿
+┃✰ ${prefix}𝙰𝚃𝚃𝙿2
+┃✰ ${prefix}𝙰𝚃𝚃𝙿3
+┃✰ ${prefix}𝙴𝙱𝙸𝙽𝙰𝚁𝚈
+┃✰ ${prefix}𝙳𝙱𝙸𝙽𝙰𝚁𝚈
+┃✰ ${prefix}𝙴𝙼𝙾𝙹𝙸𝙼𝙸𝚇    
+┃✰ ${prefix}𝙼𝙿3
+┗❑
+┏❐ 𝙰𝙸 
+┃✰ ${prefix}𝙰𝚒
+┃✰ ${prefix}𝙱𝚞𝚐
+┃✰ ${prefix}𝚁𝚎𝚙𝚘𝚛𝚝
+┃✰ ${prefix}𝙶𝚙𝚝
+┃✰ ${prefix}𝙳𝚊𝚕𝚕𝚎
+┃✰ ${prefix}𝚁𝚎𝚖𝚒𝚗𝚒
+┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
+┗❑
+┏❐ 𝚃𝙾𝙾𝙻 
+┃✰ ${prefix}𝙲𝚊𝚕𝚌𝚞𝚕𝚊𝚝𝚘𝚛
+┃✰ ${prefix}𝚃𝚎𝚖𝚙𝚖𝚊𝚒𝚕
+┃✰ ${prefix}𝙲𝚑𝚎𝚌𝚔𝚖𝚊𝚒𝚕
+┃✰ ${prefix}𝚃𝚛𝚝
+┃✰ ${prefix}𝚃𝚝𝚜
+┗❑
+┏❐ 𝙶𝚁𝙾𝚄𝙿 
+┃✰ ${prefix}𝙻𝚒𝚗𝚔𝙶𝚛𝚘𝚞𝚙
+┃✰ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚐𝚌
+┃✰ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎
+┃✰ ${prefix}𝚂𝚎𝚝𝚍𝚎𝚜𝚌
+┃✰ ${prefix}𝙶𝚛𝚘𝚞𝚙
+┃✰ ${prefix}𝙶𝚌𝚜𝚎𝚝𝚝𝚒𝚗𝚐
+┃✰ ${prefix}𝚆𝚎𝚕𝚌𝚘𝚖𝚎
+┃✰ ${prefix}𝙰𝚍𝚍
+┃✰ ${prefix}𝙺𝚒𝚌𝚔
+┃✰ ${prefix}𝙷𝚒𝚍𝚎𝚃𝚊𝚐
+┃✰ ${prefix}𝚃𝚊𝚐𝚊𝚕𝚕
+┃✰ ${prefix}𝙰𝚗𝚝𝚒𝙻𝚒𝚗𝚔
+┃✰ ${prefix}𝙰𝚗𝚝𝚒𝚃𝚘𝚡𝚒𝚌
+┃✰ ${prefix}𝙿𝚛𝚘𝚖𝚘𝚝𝚎
+┃✰ ${prefix}𝙳𝚎𝚖𝚘𝚝𝚎
+┃✰ ${prefix}𝙶𝚎𝚝𝚋𝚒𝚘
+┗❑
+╭❐ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳
 ┃✰ ${prefix}𝙰𝚙𝚔
 ┃✰ ${prefix}𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
 ┃✰ ${prefix}𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
@@ -384,17 +390,113 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ┃✰ ${prefix}𝚈𝚝𝚖𝚙3𝚍𝚘𝚌
 ┃✰ ${prefix}𝚈𝚝𝚖𝚙4𝚍𝚘𝚌
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
-╰━━━━━━━━━━━━━━━⪼`
+╰❑
+╭❐ 𝚂𝙴𝙰𝚁𝙲𝙷
+┃✰ ${prefix}𝙿𝚕𝚊𝚢
+┃✰ ${prefix}𝚈𝚝𝚜
+┃✰ ${prefix}𝙸𝚖𝚍𝚋
+┃✰ ${prefix}𝙶𝚘𝚘𝚐𝚕𝚎
+┃✰ ${prefix}𝙶𝚒𝚖𝚊𝚐𝚎
+┃✰ ${prefix}𝙿𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝
+┃✰ ${prefix}𝚆𝚊𝚕𝚕𝚙𝚊𝚙𝚎𝚛
+┃✰ ${prefix}𝚆𝚒𝚔𝚒𝚖𝚎𝚍𝚒𝚊
+┃✰ ${prefix}𝚈𝚝𝚜𝚎𝚊𝚛𝚌𝚑
+┃✰ ${prefix}𝚁𝚒𝚗𝚐𝚝𝚘𝚗𝚎
+┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
+╰❑
+╭❐ 𝙼𝙰𝙸𝙽
+┃✰ ${prefix}𝙿𝚒𝚗𝚐
+┃✰ ${prefix}𝙰𝚕𝚒𝚟𝚎
+┃✰ ${prefix}𝙾𝚠𝚗𝚎𝚛
+┃✰ ${prefix}𝙼𝚎𝚗𝚞
+┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
+╰❑
+╭❐ 𝙾𝚆𝙽𝙴𝚁
+┃✰ ${prefix}𝙹𝚘𝚒𝚗
+┃✰ ${prefix}𝙻𝚎𝚊𝚟𝚎
+┃✰ ${prefix}𝙱𝚕𝚘𝚌𝚔
+┃✰ ${prefix}𝚄𝚗𝚋𝚕𝚘𝚌𝚔
+┃✰ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚋𝚘𝚝
+┃✰ ${prefix}𝙰𝚗𝚝𝚒𝚌𝚊𝚕𝚕
+┃✰ ${prefix}𝚂𝚎𝚝𝚜𝚝𝚊𝚝𝚞𝚜
+┃✰ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎𝚋𝚘𝚝
+┃✰ ${prefix}𝙰𝚞𝚝𝚘𝚃𝚢𝚙𝚒𝚗𝚐
+┃✰ ${prefix}𝙰𝚕𝚠𝚊𝚢𝚜𝙾𝚗𝚕𝚒𝚗𝚎
+┃✰ ${prefix}𝙰𝚞𝚝𝚘𝚁𝚎𝚊𝚍
+┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
+╰❑
+╭❐ 𝚂𝚃𝙰𝙻𝙺
+┃✰ ${prefix}𝚃𝚛𝚞𝚎𝚌𝚊𝚕𝚕𝚎𝚛
+┃✰ ${prefix}𝙸𝚗𝚜𝚝𝚊𝚂𝚝𝚊𝚕𝚔
+┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
+╰❐
+   `;
+        let fgg = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `𝚁𝙰𝚅𝙴𝙽𝚂 𝚃𝚎𝚌𝚑`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'ʟᴏʀᴅ ᴍᴀʟᴠɪɴ'\nitem1.TEL;waid=${
+                        m.sender.split("@")[0]
+                    }:${
+                        m.sender.split("@")[0]
+                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+            }
+        };
+       let { key } = await Matrix.sendMessage(m.from, {
+  image: fs.readFileSync('./src/Mercedes.jpg'), 
+  caption: str, 
+  contextInfo: { 
+                  mentionedJid: [m.sender], 
+                  forwardingScore: 999,
+                  isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂 𝚃𝚎𝚌𝚑",
+                  serverMessageId: 143
+                }
+              }
+}, {
+  quoted: fgg
+});
+}
+   if ( selectedId == "Downloader Menu") {
+     const str = `╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
+│➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
+│➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
+╰❑
+╭❐𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳
+┃✰ ${prefix}𝙰𝚙𝚔
+┃✰ ${prefix}𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
+┃✰ ${prefix}𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
+┃✰ ${prefix}𝙿𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝𝚍𝚕
+┃✰ ${prefix}𝙶𝚒𝚝𝚌𝚕𝚘𝚗𝚎
+┃✰ ${prefix}𝙶𝚍𝚛𝚒𝚟𝚎
+┃✰ ${prefix}𝙸𝚗𝚜𝚝𝚊
+┃✰ ${prefix}𝚈𝚝𝚖𝚙3
+┃✰ ${prefix}𝚈𝚝𝚖𝚙4
+┃✰ ${prefix}𝙿𝚕𝚊𝚢
+┃✰ ${prefix}𝚂𝚘𝚗𝚐
+┃✰ ${prefix}𝚅𝚒𝚍𝚎𝚘
+┃✰ ${prefix}𝚈𝚝𝚖𝚙3𝚍𝚘𝚌
+┃✰ ${prefix}𝚈𝚝𝚖𝚙4𝚍𝚘𝚌
+┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
+╰❑`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens/ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂 𝚃𝚎𝚌𝚑",
                   serverMessageId: 143
                 }
               }
@@ -404,11 +506,11 @@ await Matrix.sendMessage(m.from, {
 }
    
    if ( selectedId == "Group Menu") {
-     const str = `╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str = `╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙶𝚁𝙾𝚄𝙿 ❯━╮
+╰❑
+╭❐ 𝙶𝚁𝙾𝚄𝙿 
 ┃✰ ${prefix}𝙻𝚒𝚗𝚔𝙶𝚛𝚘𝚞𝚙
 ┃✰ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚐𝚌
 ┃✰ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎
@@ -424,10 +526,10 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙿𝚛𝚘𝚖𝚘𝚝𝚎
 ┃✰ ${prefix}𝙳𝚎𝚖𝚘𝚝𝚎
 ┃✰ ${prefix}𝙶𝚎𝚝𝚋𝚒𝚘
-╰━━━━━━━━━━━━━━━⪼
+╰❑
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens/ravens.jpg'), 
   caption: str, 
   contextInfo: {
     mentionedJid: [m.sender], 
@@ -440,27 +542,27 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Main Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙼𝙰𝙸𝙽 ❯━╮
+╰❑
+╭❐ 𝙼𝙰𝙸𝙽 
 ┃✰ ${prefix}𝙿𝚒𝚗𝚐
 ┃✰ ${prefix}𝙰𝚕𝚒𝚟𝚎
 ┃✰ ${prefix}𝙾𝚠𝚗𝚎𝚛
 ┃✰ ${prefix}𝙼𝚎𝚗𝚞
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
-╰━━━━━━━━━━━━━━━⪼`
+╰❑`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens/ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂",
                   serverMessageId: 143
                 }
               }
@@ -470,11 +572,11 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Owner Menu") {
-     const str = `╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str = `╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙾𝚆𝙽𝙴𝚁 ❯━╮
+╰❑
+┏❐ 𝙾𝚆𝙽𝙴𝚁 
 ┃✰ ${prefix}𝙹𝚘𝚒𝚗
 ┃✰ ${prefix}𝙻𝚎𝚊𝚟𝚎
 ┃✰ ${prefix}𝙱𝚕𝚘𝚌𝚔
@@ -489,17 +591,17 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙰𝚕𝚠𝚊𝚢𝚜𝙾𝚗𝚕𝚒𝚗𝚎
 ┃✰ ${prefix}𝙰𝚞𝚝𝚘𝚁𝚎𝚊𝚍
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
-╰━━━━━━━━━━━━━━━⪼`
+╰❑`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens/ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂",
                   serverMessageId: 143
                 }
               }
@@ -509,11 +611,11 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Search Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝚂𝙴𝙰𝚁𝙲𝙷 ❯━╮
+╰❑
+┏❐ 𝚂𝙴𝙰𝚁𝙲𝙷 
 ┃✰ ${prefix}𝙿𝚕𝚊𝚢
 ┃✰ ${prefix}𝚈𝚝𝚜
 ┃✰ ${prefix}𝙸𝚖𝚍𝚋
@@ -525,17 +627,17 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚈𝚝𝚜𝚎𝚊𝚛𝚌𝚑
 ┃✰ ${prefix}𝚁𝚒𝚗𝚐𝚝𝚘𝚗𝚎
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
-╰━━━━━━━━━━━━━━━⪼`
+┗❑`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens.ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂",
                   serverMessageId: 143
                 }
               }
@@ -544,26 +646,26 @@ await Matrix.sendMessage(m.from, {
 });
 }
    if (selectedId == "Stalk Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝚂𝚃𝙰𝙻𝙺 ❯━╮
+╰❑
+┏❐❮ 𝚂𝚃𝙰𝙻𝙺 
 ┃✰ ${prefix}𝙽𝚘𝚠𝚊
 ┃✰ ${prefix}𝚃𝚛𝚞𝚎𝚌𝚊𝚕𝚕𝚎𝚛
 ┃✰ ${prefix}𝙸𝚗𝚜𝚝𝚊𝚂𝚝𝚊𝚕𝚔
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
-╰━━━━━━━━━━━━━━━⪼`
+╰❑`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens/ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂",
                   serverMessageId: 143
                 }
               }
@@ -573,28 +675,28 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Tool Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝚃𝙾𝙾𝙻 ❯━╮
+╰❐
+╭━❐ 𝚃𝙾𝙾𝙻 
 ┃✰ ${prefix}𝙲𝚊𝚕𝚌𝚞𝚕𝚊𝚝𝚘𝚛
 ┃✰ ${prefix}𝚃𝚎𝚖𝚙𝚖𝚊𝚒𝚕
 ┃✰ ${prefix}𝙲𝚑𝚎𝚌𝚔𝚖𝚊𝚒𝚕
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘
 ┃✰ ${prefix}𝚃𝚛𝚝
 ┃✰ ${prefix}𝚃𝚝𝚜
-╰━━━━━━━━━━━━━━━⪼`
+╰❑`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens.ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂",
                   serverMessageId: 143
                 }
               }
@@ -604,11 +706,11 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Ai Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙰𝙸 ❯━╮
+╰❐
+╭━❐ 𝙰𝙸 
 ┃✰ ${prefix}𝙰𝚒
 ┃✰ ${prefix}𝙱𝚞𝚐
 ┃✰ ${prefix}𝚁𝚎𝚙𝚘𝚛𝚝
@@ -616,17 +718,17 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙳𝚊𝚕𝚕𝚎
 ┃✰ ${prefix}𝚁𝚎𝚖𝚒𝚗𝚒
 ┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
-╰━━━━━━━━━━━━━━━⪼`
+╰❑`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./ravens.jpg'), 
+  image: fs.readFileSync('./Ravens.ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂",
                   serverMessageId: 143
                 }
               }
@@ -636,11 +738,11 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Converter Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❐ *s ᴇ ʀ ᴠ ᴇ ʀ* 
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
-╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 ❯━╮
+╰❑
+╭━❐ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿2
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿3
@@ -648,18 +750,18 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙳𝙱𝙸𝙽𝙰𝚁𝚈
 ┃✰ ${prefix}𝙴𝙼𝙾𝙹𝙸𝙼𝙸𝚇
 ┃✰ ${prefix}𝙼𝙿3
-╰━━━━━━━━━━━━━━━⪼
+╰❑
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ravens.jpg'), 
+  image: fs.readFileSync('./Ravens.ravens.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "RAVENS-MD",
+                  newsletterJid: '120363296314610373@newsletter',
+                  newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂",
                   serverMessageId: 143
                 }
               }

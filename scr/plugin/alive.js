@@ -17,7 +17,7 @@ const alive = async (m, Matrix) => {
   if (['alive', 'uptime', 'runtime'].includes(cmd)) {
     const width = 800;
     const height = 500;
-    const image = new Jimp(width, height, 'black');
+    const image = new Jimp(width, height, 'yellow');
     const font = await Jimp.loadFont(Jimp.FONT_SANS_128_WHITE);
     const textMetrics = Jimp.measureText(font, timeString);
     const textHeight = Jimp.measureTextHeight(font, timeString, width);
@@ -26,7 +26,7 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*🤖 𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴*
+    const uptimeMessage = `*ʀᴀᴠᴇɴꜱ-ᴍᴅ 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴*
 ╭❐
 ┇ *${days} Day(s)*
 ┇ *${hours} Hour(s)*
@@ -64,7 +64,7 @@ const alive = async (m, Matrix) => {
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© ᴘᴏᴡᴇʀᴅ ʙʏ ʟᴏʀᴅ ᴍᴀʟᴠɪɴ"
+              text: "𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 ʟᴏʀᴅ ᴍᴀʟᴠɪɴ"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -81,8 +81,8 @@ const alive = async (m, Matrix) => {
               forwardingScore: 999,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363249960769123@newsletter',
-                newsletterName: "𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳",
+                newsletterJid: '263780166288@s.whatsapp.net',
+                newsletterName: "ʟᴏʀᴅ ᴍᴀʟᴠɪɴ",
                 serverMessageId: 143
               }
             }

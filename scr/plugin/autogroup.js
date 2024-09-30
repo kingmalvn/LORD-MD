@@ -74,7 +74,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
         await gss.sendMessage(m.from, { text: 'An error occurred while updating the group setting.' });
       }
     }, {
-      timezone: "Africa/Lagos"
+      timezone: "Asia/Kolkata"
     });
 
     m.reply(`Group will be set to "${groupSetting}" at ${time} IST.`);

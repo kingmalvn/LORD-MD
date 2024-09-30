@@ -14,8 +14,8 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics Spectre|Alan Walker._`);
 
     try {
-      await m.React('🎧');
-      await m.reply('A moment, *𝚁𝙰𝚅𝙴𝙽𝚂-𝙼𝙳* is generating your lyrics request...');
+      await m.React('🕘');
+      await m.reply('A moment, *ʀᴀᴠᴇɴꜱ-ᴍᴅ* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Spectre|Alan Walker.');
@@ -45,7 +45,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
           {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
-              display_text: "sʜᴏᴡ 💜 ғᴏʀ ʀᴀᴠᴇɴꜱ-ᴍᴅ",
+              display_text: "Support",
               url: `https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z`
             })
           },

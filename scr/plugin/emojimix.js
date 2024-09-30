@@ -25,7 +25,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     }
 
     for (let res of anu.results) {
-      const encmedia = await Matrix.sendImageAsSticker(m.from, res.url, m, { packname: "", author: "мαℓνιη кιηg", categories: res.tags });
+      const encmedia = await Matrix.sendImageAsSticker(m.from, res.url, m, { packname: "", author: "Mercedes", categories: res.tags });
       await fs.unlinkSync(encmedia);
     }
   } catch (error) {
