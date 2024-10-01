@@ -97,7 +97,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
               text: "𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./joel/joelbot.jpg')}, { upload: Matrix.waUploadToServer})), 
+                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./lord/lord.jpg')}, { upload: Matrix.waUploadToServer})), 
                   title: ``,
                   gifPlayback: true,
                   subtitle: "",
@@ -130,7 +130,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
                       {
                        "header":"",
                        "title":"nothing",
-                       "description":"𝙹𝙾𝚎𝚕 nothing Menu",
+                       "description":"𝙻𝚘𝚛𝚍 nothing Menu",
                        "id":"View All Menu"
                       },
                       {
@@ -590,7 +590,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363296314610373@newsletter',
-                  newsletterName: "𝙹𝙾𝚎𝚕",
+                  newsletterName: "𝙻𝚘𝚛𝚍",
                   serverMessageId: 143
                 }
               }
