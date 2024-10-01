@@ -116,6 +116,22 @@
 <a
       href='https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 
+      
+      
+      
+   ***2.FOURTH STEP***
+   
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=■+DEPLOY+ON+RENDER)](https://git.io/typing-svg)
+  
+**DEPLOY TO RENDER**
+
+
+    
+<a href='https://dashboard.render.com/register' target="_blank"><img alt='Render' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+
+    
+<a href='https://dashboard.render.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
 
 
 
