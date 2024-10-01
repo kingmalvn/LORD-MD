@@ -95,7 +95,7 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 𝙹𝙾𝚎𝚕 𝚖𝚍 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎✅"));
+                    console.log(chalk.green("😃 𝙻𝚘𝚛𝚍 𝚖𝚍 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎✅"));
                     Matrix.sendMessage(Matrix.user.id, { text: `😃 𝙻𝚘𝚛𝚍 𝚖𝚍 𝚒𝚜 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍uccessful️ ✅` });
                     initialConnection = false;
                 } else {
