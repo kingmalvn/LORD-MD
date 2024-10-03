@@ -1,7 +1,7 @@
 {
-  "name": "𝙻𝚘𝚛𝚍 𝙱𝚘𝚝",
+  "name": "lord 𝙱𝚘𝚝",
+
   "description": " 𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780166288, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚎 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗 ᴍᴅ.",
-  "logo":"https://files.catbox.moe/w5doyr.jpg",
   "keywords": [
     "whatsapp bot"
   ],
@@ -21,7 +21,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": "true"
+      "value": ""
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
@@ -41,7 +41,7 @@
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
       "required": false,
-      "value": "true"
+      "value": ""
     },
     "AUTO_BLOCK": {
       "description": "make it true if you want bot to auto block only 212 numbers",
@@ -68,5 +68,4 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ]
-}
-
+      }
