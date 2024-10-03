@@ -1,0 +1,11 @@
+version: "1.0"
+services:
+  - name: LORD-MD
+    image: kingmalvn/LORD-MD:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    port: 8080
+    env:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - CHAT_ID=${CHAT_ID}
