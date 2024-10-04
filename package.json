@@ -9,7 +9,7 @@
     "stop": "pm2 stop LORD-MD",
     "restart": "pm2 restart LORD-MD"
   },
-  "keywords": ["Mercedes", "whatsapp-bot", "whatsapp md bot"],
+  "keywords": ["LORD-MD", "whatsapp-bot", "whatsapp md bot"],
   "author": "kingmalvn",
   "license": "ISC",
   "dependencies": {
