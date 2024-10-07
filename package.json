@@ -1,16 +1,16 @@
 {
-  "name": "𝙻𝚘𝚛𝚍 𝚃𝚎𝚌𝚑",
+  "name": "LORD-MD",
   "version": "10.8.1",
   "description": "LORD-MD latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name LORD-MD",
-    "stop": "pm2 stop LORD-MD",
-    "restart": "pm2 restart LORD-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Ethix-MD",
+    "stop": "pm2 stop Ethix-MD",
+    "restart": "pm2 restart Ethix-MD"
   },
-  "keywords": ["LORD-MD", "whatsapp-bot", "whatsapp md bot"],
-  "author": "kingmalvn",
+  "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
+  "author": "Ethix-Xsid",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",

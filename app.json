@@ -1,6 +1,7 @@
 {
-  "name": "𝙻𝚘𝚛𝚍 𝙱𝚘𝚝",
-  "description": " 𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780166288, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚎 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗 ᴍᴅ.",
+  "name": "whatsapp-bot (LORD-MD)",
+  "description": " 𝙱𝚎𝚜𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙼𝚊𝚕𝚟𝚒𝚗 𝚃𝚎𝚌𝚑 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 263780166288, 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘sing 𝙻𝙾𝚁𝙳 𝙼𝙳.",
+  "logo":"https://files.catbox.moe/5a2euh.jpg",
   "keywords": [
     "whatsapp bot"
   ],
@@ -49,6 +50,11 @@
     },
     "REJECT_CALL": {
       "description": "make it true if you want to reject call",
+      "required": false,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Your Bot Prefix default (.)",
       "required": false,
       "value": ""
     }
