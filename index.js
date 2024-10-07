@@ -70,7 +70,7 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 𝙻𝙾𝚁𝙳 𝙼𝙳 using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤴 𝙻𝙾𝚁𝙳 𝙼𝙳 using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 𝙻𝙾𝚁𝙳 𝙼𝙳 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 𝙹𝙾𝚎𝚕 𝚖𝚍 𝚒𝚜 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 successful️ ✅` });
+                    console.log(chalk.green("🫡 𝙻𝙾𝚁𝙳 𝙼𝙳 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `🫡 𝙻𝙾𝚁𝙳 𝙼𝙳 𝚒𝚜 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 successful️ ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
