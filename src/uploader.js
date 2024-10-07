@@ -78,7 +78,7 @@ export const webp2mp4File = async (path) => {
       const result = 'https:' + $2('div#output > p.outfile > video > source').attr('src');
       resolve({
         status: true,
-        message: "Created By Ethix-MD",
+        message: "Created By 𝙻𝙾𝚁𝙳 𝙼𝙰𝙻𝚅𝙸𝙽",
         result: result
       });
     } catch (err) {
