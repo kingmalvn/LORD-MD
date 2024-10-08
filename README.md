@@ -153,32 +153,13 @@ npm start
  
  *𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑*
 
-<table>
-  <tr>
-    <td>Malvin King</td>
-    <td>Ravens wa channel</td>
-  </tr>
-  <tr>
-    <td><a href='https://wa.me/263714757857' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
-
-   <td><a href='https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
-</td>
-  </tr>
-</table>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-<table>
-  <tr>
-    <td>TIKTOK</td>
-    <td>INSTAGRAM</td>
-  </tr>
-  <tr>
-    <td><a href='https://www.tiktok.com/@malvinquotes' target="_blank"><img alt='tiktok' src='https://img.shields.io/badge/Follow Me-blue?style=for-the-badge&logo=tiktok&logoColor=black'/></a>
-
-   <td><a href='https://www.instagram.com/@malvinking20' target="_blank"><img alt='INSTAGRAM'src='https://img.shields.io/badge/Follow Me-blue?style=for-the-badge&logo=Instagram&logoColor=red'/></a>
-</td>
-  </tr>
-</table>
-
+<p>
+<a href="https://t.me/malvinking2"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> </a><a href="https://Instagram.com/malvinking20"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="11%"> </a><a href="https://www.facebook.com/malvinquotes"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"> </a><a href="https://twitter.com/@m_king_qts"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="10%"> </a>
+</p>
+</p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=kingmalvn&label=Visitors%20count&color=10d9c3&style=plastic" alt="MALVIN-TECH" /> </p>
+</br>
+</details>
 
  *©Malvin King inc*
 
