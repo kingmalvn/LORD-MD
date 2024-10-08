@@ -16,9 +16,8 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=Introducing+Ravens+MD╺+.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝐌𝐑+MALVIN+KING;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+𝚖𝚊𝚕𝚟𝚒𝚗+𝚔𝚒𝚗𝚐;𝐌𝐑:+☬𝔻𝔸ℝ𝕂༒𝚁𝙰𝚅𝙴𝙽𝚂࿐;🫡𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥;😁𝐰𝐚+fast+𝐛𝐨𝐭🌹."alt="Typing SVG" />
  </p>
 <p align="center">
-<a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/kingmalvn-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/263714757857"><img title="Author" src="https://img.shields.io/badge/CHAT Me-black?style=for-the-badge&logo=whatsapp"></a>
-<p/>
-                                                                                                                                                    <p align="center">
+<a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/kingmalvn-black?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YOUTUBE SUBSCRIBE-red?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/263714757857"><img title="Author" src="https://img.shields.io/badge/CHAT Me-black?style=for-the-badge&logo=whatsapp"></a>
+<p/>                                                                                                                                                    <p align="center">
 <a href="https://github.com/kingmalvn/followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?color=red&style=flat-square"></a>
 <a href="https://github.com/kingmalvn/RAVENS-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/kingmalvn/RAVENS-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/kingmalvn/RAVENS-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/RAVENS-MD?color=red&style=flat-square"></a>
