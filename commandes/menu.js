@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "ravens", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,44 +66,43 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ ⌜  ℝ𝔸𝕍𝔼ℕ𝕊 𝕄𝔻 ⌟ ❐
-┃ ⿻𝕄𝕠𝕕𝕖: ${mode}
-┃ ⿻𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
-┃ ⿻𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
-️┃ ⿻ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
-️┃ ⿻𝔻𝕒𝕥𝕖 : ${date}
-┃ ⿻𝕋𝕚𝕞𝕖 : ${temps}
-┃ ⿻𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
-┃ ⿻ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻ℍ𝕠𝕤𝕥 : ${os.platform()}
-┗❏\n\n`;
+┏━━ 𝗥𝗔𝗩𝗘𝗡𝗦 𝗠𝗗 ━━┓
+┃   Mode: ${mode}
+┃   User : ${s.OWNER_NAME}
+┃
+┣━🔥ravens md new vision 𒈒━➠
+┗━━━𒈒by Malvin King𒈒━━┛\n\n`;
 
 
     
 
 let menuMsg = `
-┏━━━━━━━━━┓
-┣💫ravens cmds
-┗━━━━━━━━━┛\n
+┏━━━━━━━━━━━━━━┓
+┣🌀ravens md  
+┣🌀by Malvin Tech
+┗━━━━━━━━━━━━━━┛\n
 
 
+
+
+ravens md cmds𒈒
 `;
 
 
 
     for (const cat in coms) {
 
-        menuMsg += `┏❏ *${cat}*`;
+        menuMsg += `┏━━━━━⚼ ${cat}`;
 
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃ 🩵  ${cmd}`;
+┃༆ ${cmd}`;
 
         }
 
         menuMsg += `
-┗❏\n`
+┗━━━━━━━━━━━━━━┛\n`
 
     }
 
@@ -113,11 +112,13 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏😜ravens md
-┣❏🥰Enjoy life  
-┗┳━━━━━━━━━━━━┳┛
-┏┻━━━━━━━━━━━━┻┓
-┃🥰powered by Malvin Tech
+️┣❏🌀ravens md bot 
+┣❏🔥by Malvin King 
+┗━━━━━━━━━━━━━━┛\n
+
+
+┏━━━━━━━━━━━━━━┓
+┃🥰powered by Malvin Tech 
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -133,7 +134,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Ravens-BOT*, déveloper kingmalvn." , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *RAVENS-MD*, déveloper MALVIN" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -153,7 +154,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Ravens-bot*, déveloper kingmalvn" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *RAVENS-bot*, déveloper kingmalvn" }, { quoted: ms });
 
     }
 
@@ -180,3 +181,4 @@ else {
 
 
 });
+          
