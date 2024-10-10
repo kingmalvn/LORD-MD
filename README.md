@@ -5,7 +5,7 @@
  <a href="https://github.com/DenverCoder1/readme-typing-svg">
 <img src="https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+𝙆𝙄𝙉𝙂╺+𝚁𝙰𝚅𝙴𝙽𝚂+𝗕𝗢𝗧.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝐌𝐑+MALVIN+𝐓𝐄𝐀𝐌;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+𝚖𝚊𝚕𝚟𝚒𝚗+𝚔𝚒𝚗𝚐;𝐌𝐑:+☬𝔻𝔸ℝ𝕂༒𝚁𝙰𝚅𝙴𝙽𝚂࿐;🫡𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥;😁𝐰𝐚+𝐛𝐨𝐭🌹."alt="Typing SVG" />
  
-  </a><a><img src='https://files.catbox.moe/w5doyr.png'/></a>
+  </a><a><img src='https://e.top4top.io/p_32048sryq1.jpg'/></a>
 <p align="center">
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ RAVENS+MD★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MALVIN+KING;RELEASED+DATE+20%2F08%2F2024." alt="Typing SVG" />
