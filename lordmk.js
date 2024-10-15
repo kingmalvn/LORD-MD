@@ -1,9 +1,29 @@
+/**
+Yoo bro what au looking for
+Just deploy the bot with original repo
 
+BMW MD
 
+Made by dev Ibrahim Adams
 
 
+                 _.u[[/;:,.         .odMMMMMM'
+              .o888UU[[[/;:-.  .o@P^    MMM^
+             oN88888UU[[[/;::-.        dP^
+            dNMMNN888UU[[[/;:--.   .o@P^
+           ,MMMMMMN888UU[[/;::-. o@^
+           NNMMMNN888UU[[[/~.o@P^
+           888888888UU[[[/o@^-..
+          oI8888UU[[[/o@P^:--..
+       .@^  YUU[[[/o@^;::---..
+     oMP     ^/o@P^;:::---..
+  .dMMM    .o@^ ^;::---...
+ dMMMMMMM@^`       `^^^^
+YMMMUP^
 
+ Unclone version 😂🤣
 
+ **/
 
 
 
@@ -15183,87 +15203,66 @@
 
 
 
-{
-  
-  "name": "LORD MD",
-  "description": "Best Whatsapp bot made by Lord Malvin",
-  "logo":"https://e.top4top.io/p_32048sryq1.jpg",
-  "keywords": [
-    "whatsapp bot"
-  ],
-  "repository": "",
-  "stack":"heroku-24",
-  "env":{
-      "SESSION_ID": {
-      "description": "Paste here session id that you have scanned",
-      "required": true,
-      "value": ""
-    },
-    "MODE": {
-      "description": "Enter true for public. no for private",
-      "required": true,
-      "value": "public"
-    },
-    "AUTO_STATUS_SEEN": {
-      "description": "Enter true for autoview status. no for no",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_READ": {
-      "description": "Enter true for autoread messages. no for no",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_TYPING": {
-      "description": "Enter true for autotype. no for no",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_RECORDING": {
-      "description": "Enter true if you want bot to show recording audio",
-      "required": false,
-      "value": ""
-    },
-    "ALWAYS_ONLINE": {
-      "description": "Enter it true if you want bot to show always online",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_BLOCK": {
-      "description": "Enter it true if you want bot to auto block only 212 numbers",
-      "required": false,
-      "value": ""
-    },
-    "REJECT_CALL": {
-      "description": "Enter it true if you want to reject call",
-      "required": false,
-      "value": ""
-   
-    }
-    },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
 
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
 
-  "formation": {
-                "worker": {
-                        "quantity": 1,
-                        "size": "basic"
-                }
-        },
 
-  "addons":[
-    {
-      "plan":"heroku-postgresql"
-    }
-  ]
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
