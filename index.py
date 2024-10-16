@@ -60970,13 +60970,13 @@
 
 
 
-#!/usr/adams
+#!/usr/lords
 
 """
-Author             : Sir Ibrahim Adams
-contact            : ibraahadams@gmail.com
-Github             : https://github.com/devibraah
-my youtube channel : Youtube.com/@ibrahimaitech
+Author             : Sir 𝙻𝙾𝚁𝙳 мαℓνιи
+contact            : malvink003@gmail.com
+Github             : https://github.com/kingmalvn 
+my youtube channel : Youtube.com/@malvintech2 
 
 subcribe my youtube Channel to learn ethical Hacking ^_^
 """
