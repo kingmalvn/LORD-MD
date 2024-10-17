@@ -15195,11 +15195,11 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || '',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "𝙻𝙾𝚁𝙳 мαℓνιи",
+    OWNER_NAME: process.env.OWNER_NAME || "Lord Malvin",
     NUMERO_OWNER : process.env.NUMERO_OWNER || " 263714757857",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || '𝐋𝐎𝐑𝐃 𝐌D',
+    BOT : process.env.BOT_NAME || 'LORD_MD',
     URL : process.env.BOT_MENU_LINKS || 'https://e.top4top.io/p_32048sryq1.jpg',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',

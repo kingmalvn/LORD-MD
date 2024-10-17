@@ -15183,87 +15183,32 @@
 
 
 
-{
+// config.js
+const fs = require("fs");
+require("dotenv").config();
+
+const config = {
+  SESSION_ID: process.env.SESSION_ID || "Your Session Id",
+  PREFIX: process.env.PREFIX || '.',
+  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
+  AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
+  AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
+  AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : false,
+  AUTO_RECORDING: process.env.AUTO_RECORDING !== undefined ? process.env.AUTO_RECORDING === 'true' : false,
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE !== undefined ? process.env.ALWAYS_ONLINE === 'true' : false,
+  AUTO_REACT: process.env.AUTO_REACT !== undefined ? process.env.AUTO_REACT === 'true' : false,
+   /*auto block only for 212 */
+  AUTO_BLOCK: process.env.AUTO_BLOCK !== undefined ? process.env.AUTO_BLOCK === 'true' : true,
   
-  "name": "LORD MD",
-  "description": "Best Whatsapp bot made by Lord Malvin",
-  "logo":"https://e.top4top.io/p_32048sryq1.jpg",
-  "keywords": [
-    "whatsapp bot"
-  ],
-  "repository": "",
-  "stack":"heroku-24",
-  "env":{
-      "SESSION_ID": {
-      "description": "Paste here session id that you have scanned",
-      "required": true,
-      "value": ""
-    },
-    "MODE": {
-      "description": "Enter true for public. no for private",
-      "required": true,
-      "value": "public"
-    },
-    "AUTO_STATUS_SEEN": {
-      "description": "Enter true for autoview status. no for no",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_READ": {
-      "description": "Enter true for autoread messages. no for no",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_TYPING": {
-      "description": "Enter true for autotype. no for no",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_RECORDING": {
-      "description": "Enter true if you want bot to show recording audio",
-      "required": false,
-      "value": ""
-    },
-    "ALWAYS_ONLINE": {
-      "description": "Enter it true if you want bot to show always online",
-      "required": false,
-      "value": ""
-    },
-    "AUTO_BLOCK": {
-      "description": "Enter it true if you want bot to auto block only 212 numbers",
-      "required": false,
-      "value": ""
-    },
-    "REJECT_CALL": {
-      "description": "Enter it true if you want to reject call",
-      "required": false,
-      "value": ""
-   
-    }
-    },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
+  
+  REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
+  NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
+  MODE: process.env.MODE || "public",
+  OWNER_NAME: process.env.OWNER_NAME || "©Malvin King",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "263780166288",
+  GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
+  WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
+};
 
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
 
-  "formation": {
-                "worker": {
-                        "quantity": 1,
-                        "size": "basic"
-                }
-        },
-
-  "addons":[
-    {
-      "plan":"heroku-postgresql"
-    }
-  ]
-}
+module.exports = config;
