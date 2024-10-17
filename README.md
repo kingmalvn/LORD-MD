@@ -48,8 +48,16 @@
   <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://youtube.com/@malvintech2"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 
+***
 
- <a href="https://ibrahim-adams.vercel.app"><img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=git" width="220" height="26.45"/></a></p>
+♾️  GET SESSION ON [ Pair sessions]
+
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅SCAN_QR_Here-blue.svg)](https://malvin-session-0h9e.onrender.com/qr)
+
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅PAIR_SESSION_deploy-grey.svg)](https://malvin-session-0h9e.onrender.com/pair)
+
+***
+ <a href="https://better-hedi-lords-db8e92b0.koyeb.app/"><img title="GET SESSION" src="https://img.shields.io/badge/GET 2nd SESSION-h?color=black&style=for-the-badge&logo=git" width="220" height="26.45"/></a></p>
 
 
 
