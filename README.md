@@ -76,7 +76,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 
 
-### 🧚‍♀️LORD MALVIN💫
+### 🫅LORD MALVIN💫
 
 ***
 
