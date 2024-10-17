@@ -8,7 +8,7 @@
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-## **<a href="https://github.com/kingmalvn"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=%F0%9F%A7%B8+VIDEO+Am+LORD-MD+%E2%9C%A8%EF%B8%8F" alt="Typing SVG" /></a>**
+## **<a href="https://github.com/kingmalvn"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=%F0%9F%A7%B8+VIDEO+Am+LORD+MD+%E2%9C%A8%EF%B8%8F" alt="Typing SVG" /></a>**
 
 https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
