@@ -3,7 +3,7 @@
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-<a href="https://github.com/kingmalvn"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=LORD-MD+%E2%9C%A8%EF%B8%8F;The+Best+Whatsapp+Bot+;Created+by+𝙻𝙾𝚁𝙳+мαℓνιи;D%C3%ADont+forget+fork+before+deploying+%F0%9F%8C%9F+(LORD+MD+BOT)" alt="Typing SVG" /></a>
+<a href="https://github.com/kingmalvn"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=LORD+MD+%E2%9C%A8%EF%B8%8F;The+Best+Whatsapp+Bot+;Created+by+𝙻𝙾𝚁𝙳+мαℓνιи;D%C3%ADont+forget+fork+before+deploying+%F0%9F%8C%9F+(LORD+MD+BOT)" alt="Typing SVG" /></a>
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
