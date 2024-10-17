@@ -1,4 +1,4 @@
-## **<a href="https://github.com/kingmalvn"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=EFFF00&center=true&repeat=false&width=435&lines=HOLA+%F0%9F%91%8B+" alt="Typing SVG" /></a>**
+## **<a href="https://github.com/kingmalvn"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=EFFF00&center=true&repeat=false&width=435&lines=WELCOME+TO+LORD+MD+%F0%9F%91%8B+" alt="Typing SVG" /></a>**
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -126,7 +126,8 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 </p>
 
 
-
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 ## Features
 
