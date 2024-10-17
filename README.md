@@ -60,7 +60,6 @@
 
 ***
 
-
 - <a href="https://render.com"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON RENDER-h?color=grey&style=for-the-badge&logo=lord" width="220" height="38.45"/></a></p>
 
 ***
