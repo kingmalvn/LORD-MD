@@ -12,12 +12,12 @@
 <a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/kingmalvn-black?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YOUTUBE SUBSCRIBE-red?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/263714757857"><img title="Author" src="https://img.shields.io/badge/CHAT Me-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>                                                                                                                                                    <p align="center">
 <a href="https://github.com/kingmalvn/followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?color=red&style=flat-square"></a>
-<a href="https://github.com/kingmalvn/RAVENS-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/kingmalvn/RAVENS-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/kingmalvn/RAVENS-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/RAVENS-MD?color=red&style=flat-square"></a>
-<a href="https://github.com/kingmalvn/RAVENS-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/RAVENS-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/kingmalvn/RAVENS-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/kingmalvn/RAVENS-MD?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FRAVENS-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/kingmalvn/RAVENS-MDRAVENS-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/kingmalvn/LORD-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/kingmalvn/RAVENS-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/LORD-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/RAVENS-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/LORD-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/LORD-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/LORD-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/kingmalvn/RAVENS-MD?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FLORD-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/kingmalvn/LORD-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
     </p>
@@ -25,7 +25,7 @@
 <p align="center">
 
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{kingmalvn}/count.svg" alt="RAVENS-MD :: Visitor's Count"/></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{kingmalvn}/count.svg" alt='https:/github.com/kingmalvn/LORD-MD' :: Visitor's Count"/></p>
 
 ---
 
@@ -48,27 +48,52 @@
   <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://youtube.com/@malvintech2"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 
-- <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD_MD"><img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=blue&style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+- 
+
+ <a href="https://ibrahim-adams.vercel.app"><img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-h?color=blue&style=for-the-badge&logo=bmw" width="220" height="38.45"/></a></p>
+
+
+
 
 ***
 
-- <a href="https://toystack.ai"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON TOYSTACK-h?color=green&style=for-the-badge&logo=toystack.ai" width="220" height="38.45"/></a></p>
+
+
+### 🧚‍♀️LORD MALVIN💫
 
 ***
 
-- <a href="https://www.clever-cloud.com/"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON CLEVER-h?color=black&style=for-the-badge&logo=clever-cloud.com" width="220" height="38.45"/></a></p>
+⚜️  CREATE A HEROKU ACCOUNT  *[ HEROKU ]*
+
+[![Find On Whatsapp ](https://img.shields.io/badge/➤Click-Here-red.svg)](https://signup.heroku.com/)
+
+
+♾️  DEPLOY LORD MD BOT *[ HEROKU ]*
+
+[![Find On Whatsapp ](https://img.shields.io/badge/➤Click-Here-red.svg)]('https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main')
+
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https:/www.youtube.com/@malvintech2)
 
 ***
 
-- <a href="https://render.com"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON RENDER-h?color=black&style=for-the-badge&logo=render" width="220" height="38.45"/></a></p>
+♾️  DEPLOY ON [ RENDER ]
+
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here-blue.svg)](https://render.com)
+
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https:/www.youtube.com/@malvintech2)
 
 ***
 
-- <a href="https://uptimerobot.com"><img title="Run it on uptime" src="https://img.shields.io/badge/RUN ON UPTIME-h?color=blue&style=for-the-badge&logo=uptimerobot" width="220" height="38.45"/></a></p>
+♾️  DEPLOY ON [ Panel ]
 
-***
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here-blue.svg)](https://toystack.ai)
 
-- <a href="https://github.com/kingmalvn/LORD-INFO"><img title="Deploy On Render" src="https://img.shields.io/badge/DEV INFORMATION-h?color=blue&style=for-the-badge&logo=github" width="220" height="38.45"/></a></p>
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https:/www.youtube.com/@malvintech2)
+
+ # ⚡ LORD MD INFO
+
+ 
+ℹ️  <a href="https://github.com/kingmalvn/LORD-INFO"><img title="Deploy On Render" src="https://img.shields.io/badge/DEV INFORMATION-h?color=blue&style=for-the-badge&logo=github" width="220" height="38.45"/></a></p>
 
 ***
 
