@@ -4,9 +4,7 @@
   <a href="https://ibb.co/N6NMDtn"><img src="https://e.top4top.io/p_32048sryq1.jpg" alt="01" border="0" /></a>                     
     <h1 align="center">LORD MD BEST WABOT</h1>
   </a>
-  <div align="center">
-  <img src="https://spogit.vercel.app/api?theme=dark&rainbow=true&scan=true" alt="Widget with the current Spotify song"  />
-</div>
+  
   
 
  </p>
@@ -49,19 +47,7 @@
   <a href="https://github.com/kingmalvn/RAVENS-MD/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
   <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://youtube.com/@malvintech2"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
-<
-*********
-*To avoid heroku ban fork my repo then copy that forked link and join it at the end of this link👇*
- ```
- https://dashboard.heroku.com/new?template=
-```
-</p>
 
-*After that tap on the link you have created and deploy*
-***
-**[`How to connect forked link with heroku template and avoid  heroku ban..Tap here and see the video`](https://files.fm/f/hqnjmf6v4z)**
-
-***
 - <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD_MD"><img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=red&style=for-the-badge&logo=bmw" width="220" height="38.45"/></a></p>
 
 ***
