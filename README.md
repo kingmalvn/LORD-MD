@@ -60,14 +60,14 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 ***
 
-♾️  GET SESSION ON [ Pair sessions]
+♾️  GET BUTTON BOT SESSION ON [ Pair sessions]
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅SCAN_QR_Here-blue.svg)](https://malvin-session-0h9e.onrender.com/qr)
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅BUTTON_BOT_Click_Here-blue.svg)](https://bmw-verification.vercel.app/)
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅PAIR_SESSION_deploy-grey.svg)](https://malvin-session-0h9e.onrender.com/pair)
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅NORMAL_BOT_SESSION_Here-blue.svg)](https://bmw-verification.vercel.app/nomal.html)
 
 ***
- <a href="https://better-hedi-lords-db8e92b0.koyeb.app/"><img title="GET SESSION" src="https://img.shields.io/badge/GET 2nd SESSION-h?color=black&style=for-the-badge&logo=git" width="220" height="26.45"/></a></p>
+ <a href="https://bmw-verification.vercel.app/nomal.html"><img title="GET SESSION" src="https://img.shields.io/badge/GET 2nd SESSION-h?color=black&style=for-the-badge&logo=git" width="220" height="26.45"/></a></p>
 
 
 
