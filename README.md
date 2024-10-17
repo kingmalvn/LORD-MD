@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 [![Find On Whatsapp ](https://img.shields.io/badge/➤Click-Here-red.svg)]('https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main')
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https:/www.youtube.com/@malvintech2)
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https://youtube.com/@malvintech2?si=XxuM984u40ZiC2WG)
 
 ***
 
@@ -97,7 +97,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 [![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here-blue.svg)](https://render.com)
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https:/www.youtube.com/@malvintech2)
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https://youtube.com/@malvintech2?si=XxuM984u40ZiC2WG)
 
 ***
 
@@ -105,7 +105,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 [![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here-blue.svg)](https://toystack.ai)
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https:/www.youtube.com/@malvintech2)
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https://youtube.com/@malvintech2?si=XxuM984u40ZiC2WG)
 
  # ⚡ LORD MD INFO
 
