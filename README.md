@@ -8,30 +8,48 @@
   <img src="https://spogit.vercel.app/api?theme=dark&rainbow=true&scan=true" alt="Widget with the current Spotify song"  />
 </div>
   
+
+ </p>
+<p align="center">
+<a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/kingmalvn-black?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YOUTUBE SUBSCRIBE-red?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/263714757857"><img title="Author" src="https://img.shields.io/badge/CHAT Me-black?style=for-the-badge&logo=whatsapp"></a>
+<p/>                                                                                                                                                    <p align="center">
+<a href="https://github.com/kingmalvn/followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?color=red&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/kingmalvn/RAVENS-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/RAVENS-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/RAVENS-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/RAVENS-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/kingmalvn/RAVENS-MD?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FRAVENS-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/kingmalvn/RAVENS-MDRAVENS-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
+<p align='center'>
+    </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-<a href="https://github.com/ibrahimaitech"><img title="Author" src="https://img.shields.io/badge/ibrahimaitech-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/25471077266"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
-<p/>
+
+</p>
+<p align="center"><img src="https://profile-counter.glitch.me/{kingmalvn}/count.svg" alt="RAVENS-MD :: Visitor's Count"/></p>
+
+---
+
+
+</a>
+  <div align="center">
+  <img src="https://spogit.vercel.app/api?theme=dark&black=true&scan=true" alt="Widget with the current Spotify song"  />
+</div>
+
+---
+
 <p align="center">
-<a href="https://github.com/ibrahimaitech?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/ibrahimaitech?label=Followers&style=social"></a>
-<a href="https://github.com/ibrahimaitech/BMW-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ibrahimaitech/BMW-MD?&style=social"></a>
-<a href="https://github.com/ibrahimaitech/BMW-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/ibrahimaitech/BMW-MD?style=social"></a>
-<a href="https://github.com/ibrahimaitech/BMW-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ibrahimaitech/BMW-MD?label=Watching&style=social"></a>
-</p>></a>                     
+  <a href="https://github.com/kingmalvn/RAVENS-MD"><b>RAVENS-MD</b></a> 
+ 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=green&lines=☆+Support+Deployments+on...👇👇)](https://git.io/typing-svg)
+</p>
 
-   <h1 align="center"                  
-
-
-
-***
-
-
-
-***
-
-
-- <a href="https://ibrahim-adams.vercel.app"><img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-h?color=red&style=for-the-badge&logo=bmw" width="220" height="38.45"/></a></p>
-
+<p align="center">
+  <a href="https://github.com/kingmalvn/RAVENS-MD/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/RAVENS-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://youtube.com/@malvintech2"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
+<
 *********
 *To avoid heroku ban fork my repo then copy that forked link and join it at the end of this link👇*
  ```
