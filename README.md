@@ -48,9 +48,8 @@
   <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://youtube.com/@malvintech2"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 
-- 
 
- <a href="https://ibrahim-adams.vercel.app"><img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-h?color=blue&style=for-the-badge&logo=bmw" width="220" height="38.45"/></a></p>
+ <a href="https://ibrahim-adams.vercel.app"><img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=git" width="220" height="26.45"/></a></p>
 
 
 
