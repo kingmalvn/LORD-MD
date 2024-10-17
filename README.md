@@ -145,3 +145,5 @@ Bow to my algorithmic might!
 
 LORD MD BOT, protector of pixels and bytes!"
 ........
+
+**MADE FROM BMW-MD BASE**
