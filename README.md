@@ -1,9 +1,19 @@
-<p align="center">  
-  <a href="https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z">
-    
-  <a href="https://ibb.co/N6NMDtn"><img src="https://e.top4top.io/p_32048sryq1.jpg" alt="01" border="0" /></a>                     
-    <h1 align="center">LORD MD BEST WABOT</h1>
-  </a>
+## **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=EFFF00&center=true&repeat=false&width=435&lines=HOLA+%F0%9F%91%8B+" alt="Typing SVG" /></a>**
+
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
+<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=LORD-MD+%E2%9C%A8%EF%B8%8F;The+Best+Whatsapp+Bot+;Created+by+𝙻𝙾𝚁𝙳+мαℓνιи;D%C3%ADont+forget+fork+before+deploying+%F0%9F%8C%9F+(LORD+MD+BOT)" alt="Typing SVG" /></a>
+
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
+## **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=%F0%9F%A7%B8+VIDEO+Am+LORD-MD+%E2%9C%A8%EF%B8%8F" alt="Typing SVG" /></a>**
+
+https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
+
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
   
   
 
