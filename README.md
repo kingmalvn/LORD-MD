@@ -57,7 +57,19 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
   <a href="https://github.com/kingmalvn/LORD-MD/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
   <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://youtube.com/@malvintech2"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
+  
+***
+**HOW TO DEPLOY LORD MD**
+***
 
+*_First star and  fork my bot repo below_*
+
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here_to_Fork-blue.svg)](https://github.com/kingmalvn/LORD-MD)
+
+***
+
+*Second chose which type of bot
+eg button or normal bot*
 ***
 
 ♾️  GET BUTTON BOT SESSION ON [ Pair sessions]
