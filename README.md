@@ -64,7 +64,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 *_First star and  fork my bot repo below_*
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here_to_Fork-blue.svg)](https://github.com/kingmalvn/LORD-MD)
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here_to_Fork-blue.svg)](https://github.com/kingmalvn/LORD-MD/fork)
 
 ***
 
