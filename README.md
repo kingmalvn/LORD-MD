@@ -99,7 +99,7 @@ eg button or normal bot*
 
 ♾️  DEPLOY LORD MD BOT *[ HEROKU ]*
 
-[![Find On Whatsapp ](https://img.shields.io/badge/➤Click-Here-to-deploy-blue.svg)](https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main)
+[![Find On Whatsapp ](https://img.shields.io/badge/➤Click-Here-blue.svg)](https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/LORD-MD/tree/main)
 
 [![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https://youtube.com/@malvintech2?si=XxuM984u40ZiC2WG)
 
