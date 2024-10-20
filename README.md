@@ -72,15 +72,11 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 eg button or normal bot*
 ***
 
-♾️  GET BUTTON BOT SESSION ON [ Pair sessions]
+♾️  GET BOT SESSIONS ON👇👇 [ Pair sessions]
 
 [![Find On Whatsapp ](https://img.shields.io/badge/🫅BUTTON_BOT_Click_Here-blue.svg)](https://ibrahim-adam-c5b1ef481932.herokuapp.com/)
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅NORMAL_BOT_SESSION_Here-blue.svg)](https://ibraah-adams-432q.onrender.com/)
-
-***
- <a href="https://ibraah-adams-432q.onrender.com/"><img title="GET SESSION" src="https://img.shields.io/badge/GET 2nd SESSION-h?color=black&style=for-the-badge&logo=git" width="220" height="26.45"/></a></p>
-
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅NORMAL_BOT click_Here-neon.svg)](https://ibraah-adams-432q.onrender.com/)
 
 
 
@@ -104,6 +100,10 @@ eg button or normal bot*
 [![Find On Whatsapp ](https://img.shields.io/badge/🫅How_to_deploy-grey.svg)](https://youtube.com/@malvintech2?si=XxuM984u40ZiC2WG)
 
 ***
+♾️  CREATE AN ACCOUNT ON [ RENDER ]
+
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅Click_Here-blue.svg)](https://render.com/signup)
+
 
 ♾️  DEPLOY ON [ RENDER ]
 
