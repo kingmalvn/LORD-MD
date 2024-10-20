@@ -76,7 +76,7 @@ eg button or normal bot*
 
 [![Find On Whatsapp ](https://img.shields.io/badge/🫅BUTTON_BOT_Click_Here-blue.svg)](https://ibrahim-adam-c5b1ef481932.herokuapp.com/)
 
-[![Find On Whatsapp ](https://img.shields.io/badge/🫅NORMAL_BOT click_Here-neon.svg)](https://ibraah-adams-432q.onrender.com/)
+[![Find On Whatsapp ](https://img.shields.io/badge/🫅NORMAL_BOT-Click-Here-neon.svg)](https://ibraah-adams-432q.onrender.com/)
 
 
 
