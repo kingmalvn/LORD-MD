@@ -87,6 +87,7 @@ eg button or normal bot*
 ### 🫅LORD MALVIN💫
 
 ***
+♾️⚠️. Don use heroku for now⁉️⛔️
 
 ⚜️  CREATE A HEROKU ACCOUNT  *[ HEROKU ]*
 
