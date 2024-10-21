@@ -106283,11 +106283,6 @@
 
 
 
-
-
-
-
-
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
 import axios from 'axios';
@@ -106331,12 +106326,10 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
 ┃❃│ 💾 ʀᴀᴍ : *128GB.14GB*
 ┃❃│ 📱 ᴅᴀɪʟʏ ᴜsᴇʀs : *${forks_count}*
 ┃❃│ 📆 ᴄʀᴇᴀᴛᴇᴅ ᴏɴ : *${new Date(created_at).toLocaleDateString()}*
-┃❃│ 💫 ᴘʀᴇғɪx: [${pref}]
 ┃❃│ 
 ┃❃│  𝙻𝙾𝚁𝙳 𝙼𝙳 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴
 ┃❃╰───────────────
-╰═════════════════⊷
-    `;
+╰═════════════════⊷`;
 
     const repoMessage = generateWAMessageFromContent(m.from, {
       viewOnceMessage: {
