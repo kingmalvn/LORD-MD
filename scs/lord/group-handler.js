@@ -21,8 +21,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                     const joinDate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
-               text: `> Hello @${userName}! Welcome to *${metadata.subject}*.\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}
-"`, contextInfo: {
+               text: `> Hello @${userName}! Welcome to *${metadata.subject}*.\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}.\n Powered by𝙻𝙾𝚁𝙳 мαℓνιи"`, contextInfo: {
                   mentionedJid: [jid],
                   externalAdReply: {
                      title: `Welcome`,
@@ -40,7 +39,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                     const leaveDate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
-               text: `> Goodbye @${userName} from ${metadata.subject}.\n> We are now ${membersCount} in the group.\n> Left at: ${leaveTime} on ${leaveDate}"`, contextInfo: {
+               text: `> Goodbye @${userName} from ${metadata.subject}.\n> We are now ${membersCount} in the group.\n> Left at: ${leaveTime} on ${leaveDate} \n> Powered by 𝙻𝙾𝚁𝙳 мαℓνιи"`, contextInfo: {
                   mentionedJid: [jid],
                   externalAdReply: {
                      title: `Leave`,
