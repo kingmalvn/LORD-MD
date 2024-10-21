@@ -40,7 +40,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃❃│ 
 ┃❃│ 👤 *Owner* : ${s.OWNER_NAME}
 ┃❃│ 🤗 *Mode* : ${mode}
-┃❃│ 📆 *Date* : $(date)
+┃❃│ 📆 *Date* : ${date}
 ┃❃│ ⌚️*Hours (GMT)*: ${temps}
 ┃❃│
 ┃❃│  ${message}
