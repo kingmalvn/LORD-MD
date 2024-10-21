@@ -1,8 +1,8 @@
 
 const { lords } = require("../lord/lords");
 const yts = require('yt-search');
-//const adams = 'giftedtechk';
-//const adams = 'prabath-api_5f6557';
+//const lords = 'giftedtechk';
+//const lords = 'prabath-api_5f6557';
 
 lords({
   nomCom: "vid",
@@ -37,7 +37,7 @@ lords({
         // Prepare the message with video details
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `*BMW-MD VIDEO PLAYER*`
+          caption: `*LORD-MD VIDEO PLAYER*`
 
         };
 

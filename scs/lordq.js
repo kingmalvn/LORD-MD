@@ -52,7 +52,7 @@ lords({ nomCom: 'uptime',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_🔥⃝𝙻𝙾𝚁𝙳 𝙼𝙳 вσт ѕρєє∂: ${runtime(process.uptime())}_*`) 
+                 await repondre(`*🔥⃝𝙻𝙾𝚁𝙳 𝙼𝙳 вσт ѕρєє∂: ${runtime(process.uptime())} *`) 
 
    
 

@@ -2,7 +2,7 @@ const axios = require("axios");
 const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 const {lords} = require("../lord/lords");
 
-adams({
+lords({
   nomCom: "stickersearch",
   categorie: 'Search',
   reaction: "🍁"

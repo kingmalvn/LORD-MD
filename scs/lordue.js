@@ -64,7 +64,7 @@ lords({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 });
 
 
-adams({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk, commandeOptions) => {
+lords({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk, commandeOptions) => {
   const { repondre, nomGroupe, nomAuteurMessage, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("wait bro , you want the link to my dm?"); return; };
 
@@ -80,7 +80,7 @@ Group link :${lien} \n\n©𝙻𝙾𝚁𝙳 𝙼𝙳`
 
 });
 /** *nommer un membre comme admin */
-adams({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+lords({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -356,7 +356,7 @@ lords({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
 
  //------------------------------------antilien-------------------------------
 
- adams({ nomCom: "antilink", categorie: 'Group', reaction: "🚫" }, async (dest, zk, commandeOptions) => {
+ lords({ nomCom: "antilink", categorie: 'Group', reaction: "🚫" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -533,7 +533,7 @@ lords({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) =
   zk.groupLeave(dest)
 });
 
-adams({ nomCom: "gname", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+lords({ nomCom: "gname", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
 
   const { arg, repondre, verifAdmin } = commandeOptions;
 
@@ -597,7 +597,7 @@ lords({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) =
 });
 
 /////////////
-adams({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+lords({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 

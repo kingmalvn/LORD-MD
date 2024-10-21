@@ -1,4 +1,4 @@
-const {adams}=require("../lord/lords")
+const {lords}=require("../lord/lords")
 
 
 

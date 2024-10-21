@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { lords } = require(__dirname + "/../lord/lordss");
+const { lords } = require(__dirname + "/../lord/lords");
 const { format } = require(__dirname + "/../lord/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
@@ -10,7 +10,7 @@ const Taphere = more.repeat(4001)
 
 lords({ nomCom: "bugmenu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-    let { cm } = require(__dirname + "/../lords/lords");
+    let { cm } = require(__dirname + "/../lord/lords");
     var coms = {};
     var mode = "public";
     

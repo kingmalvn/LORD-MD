@@ -1,5 +1,5 @@
 
-const { adams } = require('../Iord/lords');
+const { lords } = require('../Iord/lords');
 
 lords({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe, arg } = commandeOptions;

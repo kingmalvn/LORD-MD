@@ -2,14 +2,14 @@
 const util = require('util');
 const fs = require('fs-extra');
 const { lords } = require(__dirname + "/../lord/lords");
-const { format } = require(__dirname + "/../Ibrahim/mesfonctions");
+const { format } = require(__dirname + "/../lord/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../config");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-adams({ nomCom: "cmd", categorie: "General" }, async (dest, zk, commandeOptions) => {
+lords({ nomCom: "cmd", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../lord//lords");
     var coms = {};

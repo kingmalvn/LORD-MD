@@ -28,7 +28,7 @@ const GIFBufferToVideoBuffer = async (image) => {
 };
 
 const generateReactionCommand = (reactionName, reactionEmoji) => {
-    adams({
+    lords({
         nomCom: reactionName,
         categorie: "Reaction",
         reaction: reactionEmoji,

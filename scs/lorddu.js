@@ -1,6 +1,6 @@
 
 
-const {lords } = require("../lord/lords");
+const { lords } = require("../lord/lords");
 const axios = require('axios');
 const cheerio = require('cheerio');
 let func = require('../lord/mesfonctions') ;

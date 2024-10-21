@@ -131,8 +131,8 @@ lords({
     const response = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${arg}&plot=full`);
     const imdbData = response.data;
 
-    let imdbInfo = "Tap on the link to join movie channel on telegram and download movies there : https://t.me/ibrahimtechai\n";
-    imdbInfo += " ``` BMW MD FILMS```\n";
+    let imdbInfo = "Tap on the link to join movie channel on telegram and download movies there : https://t.me/malvintech\n";
+    imdbInfo += " ``` LORD MD FILMS```\n";
     imdbInfo += "*Made by Ibrahim Adams*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";

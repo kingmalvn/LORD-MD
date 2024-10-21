@@ -46,7 +46,7 @@ lords({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest
     }
 });
 ////////////////////////////
-adams({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, commandeOptions) => {
+lords({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, commandeOptions) => {
     let { ms, arg, repondre, prefixe } = commandeOptions;
     try {
         if (!arg || arg == '') {

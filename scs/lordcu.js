@@ -1,5 +1,5 @@
 const {
-  adams
+  lords
 } = require("../lord/lords");
 lords({
   'nomCom': 'github',

@@ -130,8 +130,8 @@ lords({
     const _0x2fab7f = await axios.get("http://www.omdbapi.com/?apikey=742b2d09&t=" + _0x51290b + "&plot=full");
     const _0x315c2c = _0x2fab7f.data;
     let _0x1d9b0f = "*Yoo if you want to download this film join telegram channel below and get it*\n";
-    _0x1d9b0f += " ``` https://t.me/ibrahimtechai```\n";
-    _0x1d9b0f += "*BMW MD FILMS SEARCH*\n";
+    _0x1d9b0f += " ``` https://t.me/malvintech ```\n";
+    _0x1d9b0f += "*LORD MD FILMS SEARCH*\n";
     _0x1d9b0f += "🎬Title    : " + _0x315c2c.Title + "\n";
     _0x1d9b0f += "⭐Assessment : " + _0x315c2c.Rated + "\n";
     _0x1d9b0f += "📆Release    : " + _0x315c2c.Released + "\n";
