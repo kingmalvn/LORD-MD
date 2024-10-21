@@ -21,7 +21,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     }
 
     imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
-    imdbt += " ```*BMW MOVIES*```\n";
+    imdbt += " ```*LORD MOVIES*```\n";
     imdbt += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
     imdbt += `🎬Title      : ${fids.data.Title}\n`;
     imdbt += `📅Year       : ${fids.data.Year}\n`;

@@ -106321,16 +106321,20 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
       owner,
     } = repoData;
 
-    const messageText = `*┏❏ ⌜ 𝐑𝐀𝐕𝐄𝐍𝐒-𝐌𝐃 REPO ⌟ ❐
-┃🗼 *NAME:* ${name}
-┃✨ *STARS:* ${stargazers_count}
-┃🧧 *FORKS:* ${forks_count}
-┃📅 *RELEASE DATE:* ${new Date(created_at).toLocaleDateString()}
-┃🕐 *UPDATE ON:* ${new Date(updated_at).toLocaleDateString()}
-┃👨‍💻 *OWNER* : *LORD MAĹVIN*
-┃💞 *THEME*: 𝚁𝙰𝚅𝙴𝙽𝚂
-┃__________________________________
-┗❏  
+    const messageText = `╭═════❐ 𝙻𝙾𝚁𝙳 𝙼𝙳 𝚁𝙴𝙿𝙾 ❐═⊷ 
+┃❃╭──────────────
+┃❃│ 🤖 ʙᴏᴛ ɴᴀᴍᴇ: ${name}
+┃❃│ 📌 ᴠᴇʀꜱɪᴏɴ : 8.1.3
+┃❃│ ✨ ꜱᴛᴀʀꜱ:  ${stargazers_count}
+┃❃│ 🧧 ꜰᴏʀᴋꜱ: ${forks_count}
+┃❃│ 📅 ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ: ${new Date(created_at).toLocaleDateString()}
+┃❃│ 🕐 ᴜᴩᴅᴀᴛᴇ ᴏɴ:* ${new Date(updated_at).toLocaleDateString()}
+┃❃│ 👱 ᴏᴡɴᴇʀ : *𝙻𝙾𝚁𝙳 мαℓνιи*
+┃❃│ 💞 ᴛʜᴇᴍᴇ: 𝚁𝙰𝚅𝙴𝙽𝚂
+┃❃│ 
+┃❃│  𝙻𝙾𝚁𝙳 𝙼𝙳 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴
+┃❃╰───────────────
+╰═════════════════⊷
     `;
 
     const repoMessage = generateWAMessageFromContent(m.from, {

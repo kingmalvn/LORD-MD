@@ -70,7 +70,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© LORD MALVIN*"
+                  text: "> *© 𝙻𝙾𝚁𝙳 мαℓνιи*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",

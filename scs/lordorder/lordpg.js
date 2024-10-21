@@ -13,7 +13,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
 
 
-    const text = `*_🔥⃝𝙻𝙾𝚁𝙳 𝙼𝙳 вσт ѕρєє∂: ${responseTime.toFixed(2)}0 ms*`;
+    const text = `*🔥⃝𝙻𝙾𝚁𝙳 𝙼𝙳 вσт ѕρєє∂: ${responseTime.toFixed(2)}0 ms*`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }

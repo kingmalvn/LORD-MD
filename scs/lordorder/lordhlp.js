@@ -106321,15 +106321,21 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
       owner,
     } = repoData;
 
-    const messageText = `╭─────═━┈┈━═──━┈⊷
-┇ _ʙᴏᴛ ɴᴀᴍᴇ_ : *_ʟᴏʀᴅ ᴍᴅ_*
-┇ _ᴠᴇʀꜱɪᴏɴ_ : *_7.1.0_*     
-┇ _ᴘʟᴀᴛғᴏʀᴍ_ : *_ʟɪɴᴜx_*
-┇ _ᴅᴇᴠ_ : *_sɪʀ  мαℓνιи_*
-┇ _ʀᴀᴍ_ : *_120GB.14GB_*
-┇ _ᴅᴀɪʟʏ ᴜsᴇʀs_ : *${forks_count}*
-┇ _ᴄʀᴇᴀᴛᴇᴅ ᴏɴ_ : *${new Date(created_at).toLocaleDateString()}*
-╰─────═━┈┈━═──━┈⊷ 
+    const messageText = `╭═════❐ 𝙻𝙾𝚁𝙳 𝙼𝙳 ❐═⊷ 
+┃❃╭──────────────
+┃❃│ 🤖 ʙᴏᴛ ɴᴀᴍᴇ: 𝙻𝙾𝚁𝙳 𝙼𝙳
+┃❃│ 📌 ᴠᴇʀꜱɪᴏɴ: 8.1.0
+┃❃│ 👱 ᴏᴡɴᴇʀ : 𝙻𝚘𝚛𝚍 𝙼𝚊𝚕𝚟𝚒𝚗
+┃❃│ 👤 ɴᴜᴍʙᴇʀ: ?🫅
+┃❃│ 🪩 ᴘʟᴀᴛғᴏʀᴍ: *ʟɪɴᴜx*
+┃❃│ 💾 ʀᴀᴍ : *128GB.14GB*
+┃❃│ 📱 ᴅᴀɪʟʏ ᴜsᴇʀs : *${forks_count}*
+┃❃│ 📆 ᴄʀᴇᴀᴛᴇᴅ ᴏɴ : *${new Date(created_at).toLocaleDateString()}*
+┃❃│ 💫 ᴘʀᴇғɪx: [${pref}]
+┃❃│ 
+┃❃│  𝙻𝙾𝚁𝙳 𝙼𝙳 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴
+┃❃╰───────────────
+╰═════════════════⊷
     `;
 
     const repoMessage = generateWAMessageFromContent(m.from, {
@@ -106344,7 +106350,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '🌏𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓🌏\n\n𝐌𝐀𝐃𝐄 𝐁𝐘 𝐋𝐎𝐑𝐃 𝐌𝐀𝐋𝐕𝐈𝐍',
+              text: '😎𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓😎\n\n𝐌𝐀𝐃𝐄 𝐁𝐘 𝐋𝐎𝐑𝐃 𝐌𝐀𝐋𝐕𝐈𝐍',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
@@ -106362,7 +106368,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                 {
                   name: 'quick_reply',
                   buttonParamsJson: JSON.stringify({
-                    display_text: "📜 COMMAND LIST",
+                    display_text: "📃 COMMAND LIST",
                     id: ".command",
                   }),
                 },
@@ -106409,7 +106415,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
     await Matrix.relayMessage(repoMessage.key.remoteJid, repoMessage.message, {
       messageId: repoMessage.key.id,
     });
-    await m.React('🫅');
+    await m.React('😎');
   } catch (error) {
     console.error('Error processing your request:', error);
     m.reply('Error processing your request.');
